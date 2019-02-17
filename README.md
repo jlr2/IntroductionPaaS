@@ -35,7 +35,7 @@
 &nbsp;&nbsp;&nbsp;After reading the tutorial, you must have done these **practices**:
  
 
- 1. **Install** GIT.
+ 1. **Install** GIT.<br>
  > Windows: Download GitBash  <br>
  > Linux:  git install git
   <br>
