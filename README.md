@@ -40,7 +40,9 @@
  > Linux:  git install git
   <br>
  2. **Configure your user** for working with your local/remote repository.  <br>
- > git config --global user.name "nombre_usuario" <br>
+
+
+>  git config --global user.name "nombre_usuario"   <br>
  > git config --global user.email "email_usuario"
   <br>
  3. **Create a local repository** called "**proyectoGIT**".  <br> 
