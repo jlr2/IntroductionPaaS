@@ -39,11 +39,11 @@
  > Windows: Download GitBash  <br>
  > Linux:  git install git
   <br>
- 2. **Configure your user** for working with your local/remote repository.
+ 2. **Configure your user** for working with your local/remote repository.  <br>
  > git config --global user.name "nombre_usuario" <br>
  > git config --global user.email "email_usuario"
   <br>
- 3. **Create a local repository** called "**proyectoGIT**". 
+ 3. **Create a local repository** called "**proyectoGIT**".  <br> 
  > mkdir proyectoGIT  <br>
  > cd proyectoGIT   <br>
  > git init
@@ -52,7 +52,7 @@
   <br>
  5. Configure documents and documents type not to be managed by GIT: **.gitignore**
   <br>
- 6. Create a **new branch** called "**branch2**". List branches, switch branch branch2, add documents to  branch2 and merge into **master branch**.
+ 6. Create a **new branch** called "**branch2**". List branches, switch branch branch2, add documents to  branch2 and merge into **master branch**. <br>
  > git branch branch2 <br>
  > git checkout branch2  <br>
  > git branch  <br>
@@ -72,11 +72,11 @@
   <br>
  11. Modify the file **README.md** withs one information  (for example create an index about "Agencia de vuelos" project). Do these changes by editing directly the file in github.
   <br>
- 12. Delete your local repository and make a **clone** from your remote repository. *Have you recovered the deleted local repository?*
+ 12. Delete your local repository and make a **clone** from your remote repository. *Have you recovered the deleted local repository?* <br>
 > git clone https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
- 13.  Modify a document in your local repository and update it in the remote repository
+ 13.  Modify a document in your local repository and update it in the remote repository <br>
  > git push -u origin master <br>
-  14. Modify the same document but in the remote repository. After doing it, actualiza el repositorio local
+  14. Modify the same document but in the remote repository. After doing it, actualiza el repositorio local <br>
   > git pull
 
 <br>
