@@ -181,9 +181,12 @@ The new collaborator can access to the repository from his/her Github account:
 ![Project - Collaborators](/img/Github-Collaborators-3.png)
 
 The usual situation is that the new developer wants to contribute to the project by testing new software locally; so, the next step will be to clone the repository. Create a Java Project and integrate it into a repository GIT as it was explained before; go to this local repository and launch this command:  
-> create a Java project
-> add it to a GIT repository
-> move to the local GIT repository folder
+> create a Java project 
+
+> add it to a GIT repository  
+
+> move to the local GIT repository folder  
+
 > git clone https://github.com/jlrod2pruebas/ProyectoGIT.git
 
 
