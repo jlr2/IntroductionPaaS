@@ -167,10 +167,10 @@ We can check that our local project is in Gitthub remote repository.
 ![Project - upload GitHub-Step 6](/img/Eclipse-Push-6.png)
 
 
-8. Now the repository will be shared to other developers  
-It is configured collaborators to the project:  
-Click on "Settings" in your repository 'ProyectoGIT". Then go to "Collaborators" section and add the Github username o user email.
-![Project - upload GitHub-Step 5](/img/Git-Collaborators-1.png)
+8. Now the **repository will be shared to other developers**  
+We are going to add collaborators to the project. Click on "Settings" in your repository 'ProyectoGIT". Then go to "Collaborators" section and add the Github username o user email.  
+
+![Project - Collaborators](/img/Github-Collaborators-1.png)
 
 
 
