@@ -128,7 +128,7 @@
  
   14. Modify the same document but in the remote repository. After doing it, actualiza el repositorio local <br>
   > git pull <br>
-
+<br><br>
 
 ### Exercise no. 2: GIT in Eclipse
    After learning to use GIT for local and remote repositories, now it is time to integrate this technology with the Integrated Development Environment. The objective is deploy our project, our Java project for example, in a GIT repository and synchonize with a remote repository in Github in order to publish it and work in team with other developers.
@@ -226,7 +226,7 @@ The usual situation is that the new developer wants to contribute to the project
 
 
 From now, the new developer can work in the same project!!! 
-
+<br><br>
 
 ###  Final Level
 &nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdYfxr0NwK-qqOg-6vPN-WtizHAmeuRz5MwX6N9NXM9W3W-Cg/viewform) to asses your initial level.  
