@@ -120,7 +120,7 @@ The final result is our project in a GIT repository:
 
 Whe can check the new location of the Java project:
   
-  ![New location for the project](/img/GITRepositorioFolder.png)
+  ![New location for the project](/img/GITRepositoryFolder.png)
 
 
   4.Add our project to GIT ("git add") y versionar ("git commit"):  
