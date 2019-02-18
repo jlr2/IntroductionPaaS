@@ -109,13 +109,12 @@
  ![Creating a Java app](/img/CreateJavaClass.png)  
 
 
- 2. Integrate the project into a GIT repository (Right botton on the project name --> Team --> Share project --> Select GIT repository location ). Note that after doing the project dissappears in the Eclipse workspace (/home/user/eclipse-workspace/ProyectoGIT and it is moved to the GIT repository folder, /home/user/repositorios-github/ProyectoGIT).  
+ 3. Integrate the project into a GIT repository (Right botton on the project name --> Team --> Share project --> Select GIT repository location ). Note that after doing the project dissappears in the Eclipse workspace (/home/user/eclipse-workspace/ProyectoGIT and it is moved to the GIT repository folder, /home/user/repositorios-github/ProyectoGIT).  
   ![Step to integrated Java project in GIT](/img/JavaProjectinGIT.png)  
   
- ![The project integrated in GIT](/img/ConfiguringProjectinGIT.png) 
 
 The final result is our project in a GIT repository:
-![The project integrated in GIT](/img/ConfiguringProjectinGIT-2.png) 
+![The project integrated in GIT](/img/JavaProjectinGIT-2.png) 
  
  
   3. Open the GIT perspective
