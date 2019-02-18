@@ -150,10 +150,22 @@ As you can see, there are serveral parts:
 
 
   We have just realized that we need to **go back** to the initial step because we don't want the new code developed. 
-![Project commit 2](/img/Eclipse-reset.png)
+![Project reset - go back -](/img/Eclipse-reset.png)
 
 
    What is the content of the file "HelloWorld.java"?  ("Hello World" again?).  Cool!  *Our Version Control System works fine!!*
+
+
+7. It is the time to **upload our local repository to Github** to **share it to other developers**. 
+![Project - upload GitHub-Step 1](/img/Eclipse-Push-1.png)
+![Project - upload GitHub-Step 2](/img/Eclipse-Push-2.png)
+![Project - upload GitHub-Step 3](/img/Eclipse-Push-3.png)
+![Project - upload GitHub-Step 4](/img/Eclipse-Push-4.png)
+![Project - upload GitHub-Step 5](/img/Eclipse-Push-5.png)
+
+We can check that our local project is in the remote repository in Github.
+![Project - upload GitHub-Step 6](/img/Eclipse-Push-6.png)
+
 
 
 
