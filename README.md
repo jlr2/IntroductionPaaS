@@ -32,6 +32,13 @@
 <br>
 <br> 
 
+### Index
+ 1. Exercice no.1: Learning GIT
+ 2. Exercise no.2: GIT in Eclipse
+ 3. Exercise no.3: GIT in Eclipse Che
+ 
+
+
 ### Exercise no. 1: Learning GIT
 
 &nbsp;&nbsp;&nbsp;**Read** the [bibliography 1](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/) to the basics about the use of GIT. The **tutorial** is structured in 6 pages which explain the next sections:
@@ -209,6 +216,43 @@ The usual situation is that the new developer wants to contribute to the project
 From now, the new developer can work in the same project!!! 
 
 
+
+
+### Work methodology
+
+
+ 1. Collaborative team work.
+ 2. The class will be distributed in groups and each group have to practice the exercises proposed in this activity.
+ 3. The practices must be documentated.
+
+
+### Documentation and exhibition
+ 1. Only delivery for each group.
+ 2. The documentation must include practices about exercises 2 and 3 and explain the relationship between GIT in Eclipse/ Eclipse Che with GIT commands. 
+ 3. The documentation format is a videotutorial. It must follows the guide for [videotutorials](https://docs.google.com/document/d/1WV89OADdWK86i5uplX4zYoLHmDxdDgc-HiDkf1QdzN4/edit?usp=sharing).
+ 4. These videotutoriales will be uploade to the IT Department account on YouTube.
+ 5. Students who have been selected for mobility must submit the documentation in English.
+ 6. All the groups will do a  presentation  of the activity in class.
+ 7. Students selected for mobility to Italy must prepare a 1-hour workshop to teach the rest of the students from the other participating centers. The objective of the workshop is that attendees learn the most theoretical aspects of GIT and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
+
+
+### Mark
+&nbsp;&nbsp;&nbsp;This activity is part of the Erasmus + project "Cloud Computing in  European schools". All students must complete it. An increase up to 1 point will be added in the final mark of the professional module where the activity is developed, provided that the grade obtained in the evaluation of the associated learning results is equal to or greater than 5.      
+
+
+
+
+
+
+### Evaluation criteria evaluated
+	
+&nbsp;&nbsp;&nbsp;The activity will serve as an improvement / recovery of the following criteria (in addition to it was indicated in the previous section):  
+
+  * 2d + 2e + 2f  
+  * 3e + 3f + 3g + 3h  
+  * 4a + 4b
+
+This criteria mark will be increased even whether grade obtained in the evaluation of the associated learning results is equal to or greater than 4.5, but only in the case the project requested for these criterio have been developed by using GIT with, at least, 2 people in the same group.  
 
 
 
