@@ -18,9 +18,16 @@
 <br> <br> 
 
 
+#### Author
+
+&nbsp;&nbsp;&nbsp;  This material has been produced by José Luis Rodríguez Rodríguez under the Creative Commons licence:  <img src="/img/Licencia-Tipo2.png" height="25" width="75">  
+
+
 
 ### Objective
-&nbsp;&nbsp;&nbsp;The version control systems are an essential tool for software development, and any project that requires a collaborative work and with the possibility of having versions. This activity will allow knowing the most used version control system nowadays, GIT, and its integration in a remote repository, Github for the development of Java projects (or any other technology). Github offers us a repository on the Cloud and we will integrate it with our IDE; for this we will use Eclipse in its desktop version, or Eclipse Che in the cloud.
+&nbsp;&nbsp;&nbsp;The version control systems are an essential tool for software development, and any project that requires a collaborative work and with the possibility of having versions. This activity will allow knowing the most used version control system nowadays, GIT, and its integration in a remote repository, Github for the development of Java projects (or any other technology). Github offers us a repository on the Cloud and we will integrate it with our IDE; for this we will use Eclipse in its desktop version, or Eclipse Che in the cloud.  
+
+&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European School".
 <br>
 <br> 
 
