@@ -126,19 +126,33 @@ Whe can check the new location of the Java project:
   4.Add our project to GIT ("git add") y versionar ("git commit"):  
   (/img/Eclipse-Add.png)  
     ![Project add](/img/Eclipse-Add.png)
-    ![Project commit](/img/Eclipse-Commit.png)
+    ![Project commit](/img/Eclipse-Commit.png)  
+    
 
 
 
-5. The GIT plugin allow to use another perspective. Open **GIT perspective**. do click on the tab 'Git Staging'. As you can see, there are serveral parts:  
 
-  * Unstaged changes: files that are inside the GIT repository and they have changed. You can add the files to the stage by clicking in '+' button. This action makes a "git add"
-  * Staged changes: files that have been add to the stage. In case you decide to follow their versions, you must do click on "Commit button".
-  * Commit message: to describe the message for the commit (git commit -m MESSAGE)
-  * Commit:   is the result of "git commit -m MESSAGE".
-  * Commit and push: these button add the option to upload the changes to the remote repository.
+5. The GIT plugin allow to use another perspective. Open **GIT perspective**. do click on the tab 'Git Staging'.   
+![Project commit](/img/Eclipse-GITPerspective.png)  
+
+As you can see, there are serveral parts:  
+
+  * <u>Unstaged changes</u>: files that are inside the GIT repository and they have changed. You can add the files to the stage by clicking in '+' button. This action makes a "git add"
+  * <u>Staged changes</u>: files that have been add to the stage. In case you decide to follow their versions, you must do click on "Commit button".
+  * <u>Commit message</u>: to describe the message for the commit (git commit -m MESSAGE)
+  * <u>Commit</u>:   is the result of "git commit -m MESSAGE".
+  * <u>Commit and push</u>: these button add the option to upload the changes to the remote repository.
 
 
+6. Do other changes and commit them. For example, change "Hello World" to "Bye World". Commit the change with the message "Commit 2".
+![Project commit 2](/img/Eclipse-commit2.png)
+
+
+  We have just realized that we need to go back to the inital step because we don't want the new code developed. 
+![Project commit 2](/img/Eclipse-reset.png)
+
+
+   What is the content of the file "HelloWorld.java"  ("Hello World" again?).  Cool!  *Our Version Control System works fine!!*
 
 
 
