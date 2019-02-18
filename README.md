@@ -174,6 +174,23 @@ We are going to add collaborators to the project. Click on "Settings" in your re
 
 
 
+After this step, the other developer can access to the same repository, i.e., to the same project. The invited collaborator must go to his/her email and accept the invitation.
+![Project - Collaborators](/img/Github-Collaborators-2.png)
+
+The new collaborator can access to the repository from his/her Github account:  
+![Project - Collaborators](/img/Github-Collaborators-3.png)
+
+The usual situation is that the new developer wants to contribute to the project by testing new software locally; so, the next step will be to clone the repository. Create a Java Project and integrate it into a repository GIT as it was explained before; go to this local repository and launch this command:  
+> create a Java project
+> add it to a GIT repository
+> move to the local GIT repository folder
+> git clone https://github.com/jlrod2pruebas/ProyectoGIT.git
+
+
+From now, the new developer can work in the same project!!! 
+
+
+
 
 
 ### Bibliography
