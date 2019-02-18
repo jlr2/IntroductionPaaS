@@ -57,31 +57,36 @@
  5. Configure documents and documents type not to be managed by GIT: **.gitignore**   <br>
  >   <br>
  6. Create a **new branch** called "**branch2**". List branches, switch branch branch2, add documents to  branch2 and merge into **master branch**. <br>
- > git branch branch2 <br>
- > git checkout branch2  <br>
- > git branch  <br>
- > git checkout master  <br>
- > git merge branch2  <br>
- 7. Make a snapshot to your repository by naming it with a **tag**; called "**version1.0**"
->  git tag version_1.0
-  <br>
  
- 8.  Create a **Github account**.
-  <br>
- 9.  ** Create a remote repository** in Github and called it **ProyectoGIT**.
-  <br>
+
+> git branch branch2 <br>
+>  git checkout branch2  <br>
+>  git branch  <br>
+>  git checkout master  <br>
+>  git merge branch2  <br>
+ 7. Make a snapshot to your repository by naming it with a **tag**; called "**version1.0**"
+> git tag version_1.0   <br>
+ 
+ 8.  Create a **Github account**.   <br>
+ >   <br>
+ 9.  ** Create a remote repository** in Github and called it **ProyectoGIT**.  <br>
+ >   <br>
+ 
  10. Import your local repository, ProyectoGIT, to the remote repository, ProyectoGIT: <br>
- > git remote add origin https://github.com/YOUR_ACCOUNT/ProyectoGIT.git
- > git push -u origin master
-  <br>
- 11. Modify the file **README.md** withs one information  (for example create an index about "Agencia de vuelos" project). Do these changes by editing directly the file in github.
-  <br>
+>  git remote add origin https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
+>  git push -u origin master   <br>
+
+ 11. Modify the file **README.md** withs one information  (for example create an index about "Agencia de vuelos" project). Do these changes by editing directly the file in github.   <br>
+ >   <br>
+ 
  12. Delete your local repository and make a **clone** from your remote repository. *Have you recovered the deleted local repository?* <br>
 > git clone https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
+
  13.  Modify a document in your local repository and update it in the remote repository <br>
- > git push -u origin master <br>
+> git push -u origin master <br>
+ 
   14. Modify the same document but in the remote repository. After doing it, actualiza el repositorio local <br>
-  > git pull
+  > git pull <br>
 
 <br>
 <br>
