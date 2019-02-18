@@ -53,9 +53,9 @@
 >  git init  <br>
  
  4. **Practise GIT commands** : init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit
-  <br>
- 5. Configure documents and documents type not to be managed by GIT: **.gitignore**
-  <br>
+>   <br>
+ 5. Configure documents and documents type not to be managed by GIT: **.gitignore**   <br>
+ >   <br>
  6. Create a **new branch** called "**branch2**". List branches, switch branch branch2, add documents to  branch2 and merge into **master branch**. <br>
  > git branch branch2 <br>
  > git checkout branch2  <br>
