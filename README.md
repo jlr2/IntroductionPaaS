@@ -69,10 +69,11 @@
  
  8.  Create a **Github account**.   <br>
  >   <br>
- 9.  ** Create a remote repository** in Github and called it **ProyectoGIT**.  <br>
+ 
+ 9.  **Create a remote repository** in Github and called it **ProyectoGIT**.  <br>
  >   <br>
  
- 10. Import your local repository, ProyectoGIT, to the remote repository, ProyectoGIT: <br>
+ 10. **Import your local repository**, ProyectoGIT, to the remote repository, ProyectoGIT: <br>
 >  git remote add origin https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
 >  git push -u origin master   <br>
 
