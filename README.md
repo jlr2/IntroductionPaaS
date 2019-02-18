@@ -48,7 +48,9 @@
 
 
 ###  Initial Level
-&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdjP_ndTrMosgiWjKjKN4m38sXvkAwUbxwMB63YOevv17dscA/viewform) to asses your initial level.
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdjP_ndTrMosgiWjKjKN4m38sXvkAwUbxwMB63YOevv17dscA/viewform) to asses your initial level.  
+<br><br>
+
 ### Exercise no. 1: Learning GIT
 
 &nbsp;&nbsp;&nbsp;**Read** the [bibliography 1](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/) to the basics about the use of GIT. The **tutorial** is structured in 6 pages which explain the next sections:
@@ -224,6 +226,11 @@ The usual situation is that the new developer wants to contribute to the project
 
 
 From now, the new developer can work in the same project!!! 
+
+
+###  Final Level
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdYfxr0NwK-qqOg-6vPN-WtizHAmeuRz5MwX6N9NXM9W3W-Cg/viewform) to asses your initial level.  
+
 
 
 
