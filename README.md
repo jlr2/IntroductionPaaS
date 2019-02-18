@@ -46,9 +46,11 @@
  > git config --global user.email "email_usuario"
   <br>
  3. **Create a local repository** called "**proyectoGIT**".  <br> 
- > mkdir proyectoGIT  <br>
- > cd proyectoGIT   <br>
- > git init
+
+
+>  mkdir proyectoGIT  <br>
+>  cd proyectoGIT   <br>
+>  git init
   <br>
  4. **Practise GIT commands**: init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit
   <br>
