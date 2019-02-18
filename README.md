@@ -37,22 +37,22 @@
 
  1. **Install** GIT.<br>
  > Windows: Download GitBash  <br>
- > Linux:  git install git
-  <br>
+ > Linux:  git install git <br>
+  
  2. **Configure your user** for working with your local/remote repository.  <br>
 
 
 >  git config --global user.name "nombre_usuario"   <br>
- > git config --global user.email "email_usuario"
-  <br>
+ > git config --global user.email "email_usuario" <br>
+  
  3. **Create a local repository** called "**proyectoGIT**".  <br> 
 
 
 >  mkdir proyectoGIT  <br>
 >  cd proyectoGIT   <br>
->  git init
-  <br>
- 4. **Practise GIT commands**: init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit
+>  git init  <br>
+ 
+ 4. **Practise GIT commands** : init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit
   <br>
  5. Configure documents and documents type not to be managed by GIT: **.gitignore**
   <br>
