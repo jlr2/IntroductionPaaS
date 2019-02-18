@@ -156,15 +156,21 @@ As you can see, there are serveral parts:
    What is the content of the file "HelloWorld.java"?  ("Hello World" again?).  Cool!  *Our Version Control System works fine!!*
 
 
-7. It is the time to **upload our local repository to Github** to **share it to other developers**. 
+7. It is the time to **upload our local repository to Github** to be shared  to other developers. 
 ![Project - upload GitHub-Step 1](/img/Eclipse-Push-1.png)
 ![Project - upload GitHub-Step 2](/img/Eclipse-Push-2.png)
 ![Project - upload GitHub-Step 3](/img/Eclipse-Push-3.png)
 ![Project - upload GitHub-Step 4](/img/Eclipse-Push-4.png)
 ![Project - upload GitHub-Step 5](/img/Eclipse-Push-5.png)
 
-We can check that our local project is in the remote repository in Github.
+We can check that our local project is in Gitthub remote repository.
 ![Project - upload GitHub-Step 6](/img/Eclipse-Push-6.png)
+
+
+8. Now the repository will be shared to other developers  
+It is configured collaborators to the project:  
+Click on "Settings" in your repository 'ProyectoGIT". Then go to "Collaborators" section and add the Github username o user email.
+![Project - upload GitHub-Step 5](/img/Git-Collaborators-1.png)
 
 
 
