@@ -45,17 +45,19 @@
 >  git config --global user.name "nombre_usuario"   <br>
  > git config --global user.email "email_usuario" <br>
   
- 3. **Create a local repository** called "**proyectoGIT**".  <br> 
+ 3. **Create a local repository** called "**proyectoGIT**".  <br>
 
 
 >  mkdir proyectoGIT  <br>
 >  cd proyectoGIT   <br>
 >  git init  <br>
  
- 4. **Practise GIT commands** : init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit
->   <br>
- 5. Configure documents and documents type not to be managed by GIT: **.gitignore**   <br>
- >   <br>
+ 4. **Practise GIT commands** : init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit  
+
+
+ 5. Configure documents and documents type not to be managed by GIT: **.gitignore**  
+
+
  6. Create a **new branch** called "**branch2**". List branches, switch branch branch2, add documents to  branch2 and merge into **master branch**. <br>
  
 
@@ -72,16 +74,17 @@
 
 
  
- 9.  **Create a remote repository** in Github and called it **ProyectoGIT**.  <br>
- >   <br>
+ 9.  **Create a remote repository** in Github and called it **ProyectoGIT**.  
+
+
+ 10. **Import your local repository**, ProyectoGIT, to the remote repository, ProyectoGIT:  
  
- 10. **Import your local repository**, ProyectoGIT, to the remote repository, ProyectoGIT: <br>
 >  git remote add origin https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
 >  git push -u origin master   <br>
 
- 11. Modify the file **README.md** withs one information  (for example create an index about "Agencia de vuelos" project). Do these changes by editing directly the file in github.   <br>
- >   <br>
- 
+ 11. Modify the file **README.md** withs one information  (for example create an index about "Agencia de vuelos" project). Do these changes by editing directly the file in github.  
+
+
  12. Delete your local repository and make a **clone** from your remote repository. *Have you recovered the deleted local repository?* <br>
 > git clone https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
 
