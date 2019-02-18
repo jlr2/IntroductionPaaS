@@ -116,9 +116,30 @@
 The final result is our project in a GIT repository:  
 
 ![The project integrated in GIT](/img/JavaProjectinGIT-2.png) 
- 
- 
-  3. Open the GIT perspective
+
+
+Whe can check the new location of the Java project:
+  
+  ![New location for the project](/img/GITRepositorioFolder.png)
+
+
+  4.Add our project to GIT ("git add") y versionar ("git commit"):  
+  (/img/Eclipse-Add.png)  
+    ![Project add](/img/Eclipse-Add.png)
+    ![Project commit](/img/Eclipse-Commit.png)
+
+
+
+5. The GIT plugin allow to use another perspective. Open **GIT perspective**. do click on the tab 'Git Staging'. As you can see, there are serveral parts:  
+
+  * Unstaged changes: files that are inside the GIT repository and they have changed. You can add the files to the stage by clicking in '+' button. This action makes a "git add"
+  * Staged changes: files that have been add to the stage. In case you decide to follow their versions, you must do click on "Commit button".
+  * Commit message: to describe the message for the commit (git commit -m MESSAGE)
+  * Commit:   is the result of "git commit -m MESSAGE".
+  * Commit and push: these button add the option to upload the changes to the remote repository.
+
+
+
 
 
 
