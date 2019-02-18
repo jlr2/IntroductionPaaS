@@ -67,8 +67,10 @@
  7. Make a snapshot to your repository by naming it with a **tag**; called "**version1.0**"
 > git tag version_1.0   <br>
  
- 8.  Create a **Github account**.   <br>
- >   <br>
+ 8.  Create a **Github account**.  
+ 
+
+
  
  9.  **Create a remote repository** in Github and called it **ProyectoGIT**.  <br>
  >   <br>
@@ -92,7 +94,7 @@
 <br>
 <br>
 <br>
-### Step no. 2: 
+### Exercise no. 2: GIT in Eclipse
 
 
 
@@ -100,6 +102,7 @@
 
 ### Bibliography
  1. [Tutorial de Git – Aprende Git y GitHub/GitLab de manera fácil, rápida y sencilla](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/)
+ 2. [Eclipse Git , Repositorios locales y remotos](https://www.arquitecturajava.com/eclipse-git-repositorios/   )
 
 
 
