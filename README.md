@@ -1,6 +1,13 @@
 # GIT Course
- **Project: “Cloud Computing in European schools” <br>
+ **Project: “Cloud Computing in European schools”  
+![Project - logo](/img/cloud-computing-logoproject.jpg) 
  Number: Project: 2017-1-ES01-KA202-038471
+
+
+![Project - Erasmus+](/img/cloud-computing-logoproject.jpg)  
+![Project - Erasmus+](/img/logoIES-Modificado.png)  
+
+
 **
 <br><br>
 
