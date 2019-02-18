@@ -94,18 +94,31 @@
   14. Modify the same document but in the remote repository. After doing it, actualiza el repositorio local <br>
   > git pull <br>
 
-<br>
-<br>
-<br>
-### Exercise no. 2: GIT in Eclipse
 
+### Exercise no. 2: GIT in Eclipse
+   After learning to use GIT for local and remote repositories, now it is time to integrate this technology with the Integrated Development Environment. The objective is deploy our project, our Java project for example, in a GIT repository and synchonize with a remote repository in Github in order to publish it and work in team with other developers.
+
+   The article in the [bibliography 4](https://www.arquitecturajava.com/eclipse-git-repositorios/) explains the steps to do it.   The steps are:
+   
+
+ 1. Create a Java project.
+ ![Creating a Java project](/img/CreateJavaProject.png)
+ 2. Create a Java Class with the typical message "Hello World".
+ img
+ 2. Integrate the project into a GIT repository (Right botton on the project name --> Team --> Share project --> Select GIT repository location ). Note that after doing the project dissappears in the Eclipse workspace (/home/user/eclipse-workspace/ProyectoGIT and it is moved to the GIT repository folder, /home/user/repositorios-github/ProyectoGIT).
+ img
+  img
+  3. Open the GIT perspective
 
 
 
 
 ### Bibliography
  1. [Tutorial de Git – Aprende Git y GitHub/GitLab de manera fácil, rápida y sencilla](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/)
- 2. [Eclipse Git , Repositorios locales y remotos](https://www.arquitecturajava.com/eclipse-git-repositorios/   )
+ 2. [Qué es Markdown, para qué sirve y cómo usarlo](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo)
+ 3. [Sintaxis Markdown](https://markdown.es/sintaxis-markdown/#parrafos)
+ 4. [Eclipse Git , Repositorios locales y remotos](https://www.arquitecturajava.com/eclipse-git-repositorios/)
+
 
 
 
