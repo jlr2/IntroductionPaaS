@@ -141,18 +141,19 @@ As you can see, there are serveral parts:
   * <u>Staged changes</u>: files that have been add to the stage. In case you decide to follow their versions, you must do click on "Commit button".
   * <u>Commit message</u>: to describe the message for the commit (git commit -m MESSAGE)
   * <u>Commit</u>:   is the result of "git commit -m MESSAGE".
-  * <u>Commit and push</u>: these button add the option to upload the changes to the remote repository.
+  * <u>Commit and push</u>: these button add the option to upload the changes to the remote repository.  
+  
 
 
-6. Do other changes and commit them. For example, change "Hello World" to "Bye World". Commit the change with the message "Commit 2".
+6. **Do other changes and commit them**. For example, change "Hello World" to "Bye World". Commit the change with the message "Commit 2".
 ![Project commit 2](/img/Eclipse-commit2.png)
 
 
-  We have just realized that we need to go back to the inital step because we don't want the new code developed. 
+  We have just realized that we need to **go back** to the initial step because we don't want the new code developed. 
 ![Project commit 2](/img/Eclipse-reset.png)
 
 
-   What is the content of the file "HelloWorld.java"  ("Hello World" again?).  Cool!  *Our Version Control System works fine!!*
+   What is the content of the file "HelloWorld.java"?  ("Hello World" again?).  Cool!  *Our Version Control System works fine!!*
 
 
 
