@@ -113,9 +113,9 @@
   ![Step to integrated Java project in GIT](/img/JavaProjectinGIT.png)  
   
 
-The final result is our project in a GIT repository:
-![The project integrated in GIT]  
-(/img/JavaProjectinGIT-2.png) 
+The final result is our project in a GIT repository:  
+
+![The project integrated in GIT](/img/JavaProjectinGIT-2.png) 
  
  
   3. Open the GIT perspective
