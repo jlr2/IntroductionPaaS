@@ -33,18 +33,28 @@
 <br> 
 
 ### Index
- 1. Exercice no.1: Learning GIT
- 2. Exercise no.2: GIT in Eclipse
- 3. Exercise no.3: GIT in Eclipse Che
+ 1. Initial level
+ 2. Exercice no.1: Learning GIT
+ 3. Exercise no.2: GIT in Eclipse
+ 4. Exercise no.3: GIT in Eclipse Che
+ 5. Final level
+ 6. Others
+    1. Work methodology
+    2. Documentation and exhibitions
+    3. Mark
+    4. Evaluation criteria evaluated
+    5. Bibliography
  
 
 
+###  Initial Level
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdjP_ndTrMosgiWjKjKN4m38sXvkAwUbxwMB63YOevv17dscA/viewform) to asses your initial level.
 ### Exercise no. 1: Learning GIT
 
 &nbsp;&nbsp;&nbsp;**Read** the [bibliography 1](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/) to the basics about the use of GIT. The **tutorial** is structured in 6 pages which explain the next sections:
 
  1. What is GIT?
- 2. Installating GIT.
+ 2. GIT installation.
  3. First steps: user configuration and local repository.
  4. GIT commands
  5. Branchs.
