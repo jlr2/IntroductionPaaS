@@ -215,14 +215,28 @@ After this step, the other developer can access to the same repository, i.e., to
 The new collaborator can access to the repository from his/her Github account:  
 ![Project - Collaborators](/img/Github-Collaborators-3.png)
 
-The usual situation is that the new developer wants to contribute to the project by testing new software locally; so, the next step will be to clone the repository. Create a Java Project and integrate it into a repository GIT as it was explained before; go to this local repository and launch this command:  
-> create a Java project 
+The usual situation is that the new developer wants to contribute to the project by testing new software locally; so, the next step will be to clone the repository. 
+Follow the steps in [bibliography 5](https://www.youtube.com/watch?v=rQNixJQQ25g). The pictures show what to do:  
 
-> add it to a GIT repository  
+Select "Clone a Git Repository and ..." from the view "Git Repositories":  
 
-> move to the local GIT repository folder  
+![Project - Collaborators](/img/Github-Collaborators-4.png)
 
-> git clone https://github.com/jlrod2pruebas/ProyectoGIT.git
+Now, we must configure the remote repository:  
+
+![Project - Collaborators](/img/Github-Collaborators-5.png)
+The last step is to choose a local folder:
+![Project - Collaborators](/img/Github-Collaborators-6.png)
+
+
+
+
+Other way to do it (without using Eclipse)
+> create a folder 
+
+> git clone https://github.com/jlrod2pruebas/ProyectoGIT.git  
+
+> Open Eclipse and import the project
 
 
 From now, the new developer can work in the same project!!! 
@@ -278,6 +292,7 @@ This criteria mark will be increased even whether grade obtained in the evaluati
  2. [Qué es Markdown, para qué sirve y cómo usarlo](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo)
  3. [Sintaxis Markdown](https://markdown.es/sintaxis-markdown/#parrafos)
  4. [Eclipse Git , Repositorios locales y remotos](https://www.arquitecturajava.com/eclipse-git-repositorios/)
+ 5. [Clonar un repositorio Git mediante Eclipse](https://www.youtube.com/watch?v=rQNixJQQ25g)
 
 
 
