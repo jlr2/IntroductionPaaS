@@ -293,7 +293,7 @@ This criteria mark will be increased even whether grade obtained in the evaluati
  3. [Sintaxis Markdown](https://markdown.es/sintaxis-markdown/#parrafos)
  4. [Eclipse Git , Repositorios locales y remotos](https://www.arquitecturajava.com/eclipse-git-repositorios/)
  5. [Clonar un repositorio Git mediante Eclipse](https://www.youtube.com/watch?v=rQNixJQQ25g)
- 6. [Eclipse Git Tutorial](https://www.vogella.com/tutorials/EclipseGit/article.html#firstgit_with_eclipse)
+ 6. [Eclipse Git Tutoria -in English-](https://www.vogella.com/tutorials/EclipseGit/article.html#firstgit_with_eclipse)
 
 
 
