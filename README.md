@@ -8,7 +8,7 @@
 
 
 
-# Use GIT to work collaborativelly on the Cloud  
+# Introduction to PaaS: develop, deploy, run and manage apps on the Cloud  
 
 
 
@@ -26,7 +26,7 @@
 
 
 ### Objective
-&nbsp;&nbsp;&nbsp;The version control systems are an essential tool for software development, and any project that requires a collaborative work and with the possibility of having versions. This activity will allow knowing the most used version control system nowadays, GIT, and its integration in a remote repository, Github for the development of Java projects (or any other technology). Github offers us a repository on the Cloud and we will integrate it with our IDE; for this we will use Eclipse in its desktop version, or Eclipse Che in the cloud.  
+&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the microservices based application development approach (vs monolithic applications), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
 
 &nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European School".
 <br>
@@ -34,11 +34,12 @@
 
 ### Index
  1. Initial level
- 2. Exercice no.1: Learning GIT
- 3. Exercise no.2: GIT in Eclipse
- 4. Exercise no.3: GIT in Eclipse Che
- 5. Final level
- 6. Others
+ 2. Exercice no.1: Introduction to PaaS
+ 3. Exercise no.2: Docker
+ 4. Exercise no.3: Kubernetes
+ 5. Exercice no 4: OpenShift
+ 6. Final level
+ 7. Others
     1. Work methodology
     2. Documentation and exhibitions
     3. Mark
@@ -48,199 +49,172 @@
 
 
 ###  Initial Level
-&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdjP_ndTrMosgiWjKjKN4m38sXvkAwUbxwMB63YOevv17dscA/viewform) to asses your initial level.  
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie](PENDING) to asses your initial level.  
 <br><br>
 
-### Exercise no. 1: Learning GIT
+### Exercise no. 1: Introduction to PaaS
 
-&nbsp;&nbsp;&nbsp;**Read** the [bibliography 1](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/) to the basics about the use of GIT. The **tutorial** is structured in 6 pages which explain the next sections:
+&nbsp;&nbsp;&nbsp;**Read** the [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/) or [Introducción a PaaS - Spanish version](https://github.com/iesgn/cloudandrelated/tree/master/paas) to learn about what is PaaS, differences with SaaS and IaaS, and what the big player (companies) about PaaS.
 
- 1. What is GIT?
- 2. GIT installation.
- 3. First steps: user configuration and local repository.
- 4. GIT commands
- 5. Branchs.
- 6. Remote repository. Github
-    * README
-    * Update remote repository from local repository.
-    * Update local repository from remote repository
-    * Copy of repositories and pull requests to original repository.
-<br>    
 
-&nbsp;&nbsp;&nbsp;After reading the tutorial, you must have done these **practices**:
- 
 
- 1. **Install** GIT.<br>
- > Windows: Download GitBash  <br>
- > Linux:  git install git <br>
+### Exercise no. 2: Docker
+   After learning what is the scope of PaaS,  now it is time to start the study of the first level: the containers.  Docker is the most used solution nowaday.  We are going to structure the learning of Docker in the next sections:
+   1.- Docker installation: virtual machine managed by Vagrant.
+   2.- Docker applications lifecycle.
+   3.- Docker containers: not persistent.
+   4.- Docker commands summary.
+   5.- Docker applications examples: static webpage, wordpress.
+
+  The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
+
+## Section 1.- Docker installation: virtual machine managed by Vagrant
+   We will practice Docker by using a virtual machine managed by **Vagrant**. 
+   Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Go to [Vagrant](https://www.vagrantup.com/intro/index.html) for more details.
+   Vagrant is useful for developers, for operators, for designers, for everyone.
+   Instead of building a virtual machine from scratch, which would be a slow and tedious process, Vagrant uses a base image to quickly clone a virtual machine. These base images are known as "boxes" in Vagrant, and specifying the box to use for your Vagrant environment is always the first step after creating a new Vagrantfile. We can access to these boxes in [Vagrant Boxes](https://app.vagrantup.com/boxes/search).
+   The next commands are the basic ones:
+   1.- **vagrant box add …** →  download image / box from Vagrant repository.  Example: vagrant box add ubuntu/bionic64 --provider virtualbox  --> download an image (box) of Ubuntu verson Bionic 64 bits for VirtualBox.
+   2.- **vagrant box list** →   list all downloaded images / boxes.
+   3.- **mkdir FOLDER**  → create folder where we will create the Vagrantfile file that will contain the definition of the MV.
+   4.- **cd FOLDER**  →  go in inside the folder.
+   5.- **vagrant init BOX**  →    The MV files are located in the directory where the hypervisor (VirtualBox, VMWare ...) stores its MVs. In FOLDER, the VagrantFile file, a log file and a hidden .vagrant folder will be saved.  Example: vagrant init ubuntu/bionic64 --> the box used is ubuntu bionic 64.
+   7.- **vagrant up**  →  start the MV  --> We can check the virtual machine runnning by open the VirtualBox app.
+   5.- **vagrant ssh** →  connect to the MV
+   6.- **vagrant halt** → stop the MV
   
- 2. **Configure your user** for working with your local/remote repository.  <br>
+
+   Now, we know the basic concepts in order to install a virtual machine by using a Vagrant box. The next steps are:
+   1.- Install vagrant    ($ sudo apt install virtualbox).  We can verify the installatin by *$  --version*
+   2.- Install Virtualbox  ($ sudo apt install virtualbox). 
+   The article  [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/) explains the steps.
+
+   Now it is time to install a virtual machine with Docker. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
+   Have you been able to connect to the virtual machine and check whether "docker" is running? *Which version do you have?*
 
 
->  git config --global user.name "nombre_usuario"   <br>
- > git config --global user.email "email_usuario" <br>
-  
- 3. **Create a local repository** called "**proyectoGIT**".  <br>
-
-
->  mkdir proyectoGIT  <br>
->  cd proyectoGIT   <br>
->  git init  <br>
- 
- 4. **Practise GIT commands** : init, add (files and folders), status, commit, log, checkout id_commit, help, diff, reset --soft/hard id_commit  
-
-
- 5. Configure documents and documents type not to be managed by GIT: **.gitignore**  
-
-
- 6. Create a **new branch** called "**branch2**". List branches, switch branch branch2, add documents to  branch2 and merge into **master branch**. <br>
- 
-
-> git branch branch2 <br>
->  git checkout branch2  <br>
->  git branch  <br>
->  git checkout master  <br>
->  git merge branch2  <br>
- 7. Make a snapshot to your repository by naming it with a **tag**; called "**version1.0**"
-> git tag version_1.0   <br>
- 
- 8.  Create a **Github account**.  
- 
-
+##Section 2.- Docker applications lifecycle
+   After installing an environment with Docker, we are going to develop Docker images and deploy containers to run our applications. The documentation to read is [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/). 
+   The reading must have taught you (it is showed a summary:
+   1.- **Create the application**. We are going to create a web page *index.html* that will be served by a web server that will run in a Docker container. The web page  and it will be saved in */home/vagrant/public_html/*:
+    > $ mkdir public_html <br>
+    > $ cd public_html<br>
+    > $ echo “<h1>Prueba></h1>” > index.html
 
  
- 9.  **Create a remote repository** in Github and called it **ProyectoGIT**.  
+   2.- **Create a Docker image**. 
+   2.1.- Using a **Dockerfile** we define how we are going to create our image:
+   > FROM -->       Which base image we are going to use
+   > RUN  -->       Which packages we are going to install
+   > COPY -->       Where we copy our source code (web page)
+   > ENTRYPOINT --> We indicate the service that will run the container (apache server)
+    Example.  Define an image with debian, install Apache2, copy our webpage to the public directory of Apache and start Apache. Note: the image *debian* is downloaded from [dockerhub](https://hub.docker.com/)
+    FROM debian
+    RUN apt-get update -y && apt-get install -y \
+        apache2 \
+        && apt-get clean && rm -rf /var/lib/apt/lists/*
+    COPY ./public_html /var/www/html/
+    ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 
+   2.2.- **Create the Docker image**
+   > docker build -t jlr2/aplicacionesweb:v1 .
+   > docker image ls  --> list the docker images created.
+   
+   3.- **Create/Run a container in the development environment**. 
+   > docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
+   > docker container ls --> list the containers created
+   We can check our web page by a web browser. Connect locally by using, for example, the text web browser links (URL = http://127.0.0.1).
+   
+   4.- **Distribute/Share the Docker image; dockerhub**
+   > Create a Docker account: https://hub.docker.com 
+   > docker push jlr2/aplicacionesweb :v1  --> Upload the image
+   We can check it by 2 ways:
+   > docker search jlr2/aplicacioneseweb 
+   > Look for in our Docker account. 
 
- 10. **Import your local repository**, ProyectoGIT, to the remote repository, ProyectoGIT:  
- 
->  git remote add origin https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
->  git push -u origin master   <br>
+   5.- **Deploy the application in the production environment**
+   >  docker pull jlr2/aplicacionesweb:v1  --> download the image from the dockerhub
+   >  docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1   --> create/run the container
 
- 11. Modify the file **README.md** withs one information  (for example create an index about "Agencia de vuelos" project). Do these changes by editing directly the file in github.  
-
-
- 12. Delete your local repository and make a **clone** from your remote repository. *Have you recovered the deleted local repository?* <br>
-> git clone https://github.com/YOUR_ACCOUNT/ProyectoGIT.git <br>
-
- 13.  Modify a document in your local repository and update it in the remote repository <br>
-> git push -u origin master <br>
- 
-  14. Modify the same document but in the remote repository. After doing it, actualiza el repositorio local <br>
-  > git pull <br>
-<br><br>
-
-### Exercise no. 2: GIT in Eclipse
-   After learning to use GIT for local and remote repositories, now it is time to integrate this technology with the Integrated Development Environment. The objective is deploy our project, our Java project for example, in a GIT repository and synchonize with a remote repository in Github in order to publish it and work in team with other developers.
-
-   The article in the [bibliography 4](https://www.arquitecturajava.com/eclipse-git-repositorios/) explains the steps to do it.   The steps are:
+   6.- **Modify the application** In case we modify the application it is necessary to build a new image:
+   >  echo "<h1>Prueba 2</h1>" > index.htm   -->  modify the application
+   >  docker build -t josedom24/aplicacionweb:v2  -->  create the new image (in the development environment)
+   >  docker push jlr2/aplicacionesweb :v2  --> upload the new image
+   >  docker pull  jlr2/aplicacionesweb :v2  --> (download the new image to the production environment)
+   >  docker container rm -f aplweb  -->  delete the current container  (in the production environment)
+   >  docker run --name aplweb2 -d -p 80:80   jlr2/aplicacionesweb:v2  --> run the new container (in the production environment)
    
 
- 1. Create a Java project.
- ![Creating a Java project](/img/CreateJavaProject.png)  
+##Section 3.- Docker containers: not persistent.
+ - Data stored in a container is not persistent.
+ - When data must be stored persistently, volumes must be used.
+ - The scenario is: the application is decoupled from the data, that is, the application will run in a container and the data in a persistent medium external to the container. Advantages:
++ If the container fails, information is not lost, you only need to create a new container.
++ If the data is updated it is not necessary to build a new image.
+ - Example: 
+ * we are going to create a container with a MySQL server; the data is stored in a persistent volume:
+  > $ docker run --name some-mysql -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
+ * Create a database called *dbtest*
+ > $ docker exec -it some-mysql bash
+   > root@75544a024f9b:/# mysql -u root -p -h localhost
+   > ...
+  > create database dbtest;
+ * Delete the container.
+ > $ docker container rm -f some-mysql
+ * Create a new container:
+ > $ docker run --name some-mysql2 -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
+ * Verify that the database is still created
+ > $ docker exec -it some-mysql bash
+   > root@75544a024f9b:/# mysql -u root -p -h localhost
+   > ...
+  > show  databases;
 
 
- 2. Create a Java Class with the typical message "Hello World".
- ![Creating a Java app](/img/CreateJavaClass.png)  
 
-
- 3. Integrate the project into a GIT repository (Right botton on the project name --> Team --> Share project --> Select GIT repository location ). Note that after doing the project dissappears in the Eclipse workspace (/home/user/eclipse-workspace/ProyectoGIT and it is moved to the GIT repository folder, /home/user/repositorios-github/ProyectoGIT).  
-  ![Step to integrated Java project in GIT](/img/JavaProjectinGIT.png)  
+##Section 4.- Docker commands summary
+  This section shows a summary of Docker commands. We can see examples in [Ejercicios con Docker](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/ejercicios_docker.md).
   
+- List containers
+    > $ docker ps
+    > $ docker container ls 
+- List images
+    > $ docker image ls
+- Create a container and establish an interactive session
+    > $ docker run -it --name CONTAINER-NAME ubuntu /bin/bash
+- Stop a container when we are inside it
+    > exit
+- Stop a container without being inside it
+    > $ docker stop CONTAINER-NAME
+- Start a stopped container
+    > $ docker start CONTAINER-NAME
+- Connect to a container
+    > $ docker attach CONTAINER-NAME
+- Create a daemon container  
+    > $ docker run -d --name CONTAINER-NAME ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
+- Check what a container is doing
+    > docker logs CONTAINER-NAME
+- Delete a container
+    > $ docker rm  CONTAINER-NAME
+   
+##Section 5.- Docker applications example:  wordpress
+   Wordpress installation needs 2 containers: one for Wordpress and other for the database:
+- Database server. Container: servidor_mariadb
+> $ docker run --name servidor_mariadb -e MYSQL_ROOT_PASSWORD=asdasd -e MYSQL_DATABASE=wordpress -d mariadb
 
-The final result is our project in a GIT repository:  
-
-![The project integrated in GIT](/img/JavaProjectinGIT-2.png) 
-
-
-Whe can check the new location of the Java project:
-  
-  ![New location for the project](/img/GitRepositoryFolder.png)
-
-
-  4.Add our project to GIT ("git add") y versionar ("git commit"):  
-  (/img/Eclipse-Add.png)  
-    ![Project add](/img/Eclipse-Add.png)
-    ![Project commit](/img/Eclipse-Commit.png)  
-    
-
-
-
-
-5. The GIT plugin allow to use another perspective. Open **GIT perspective**. do click on the tab 'Git Staging'.   
-![Project commit](/img/Eclipse-GITPerspective.png)  
-
-As you can see, there are serveral parts:  
-
-  * <u>Unstaged changes</u>: files that are inside the GIT repository and they have changed. You can add the files to the stage by clicking in '+' button. This action makes a "git add"
-  * <u>Staged changes</u>: files that have been add to the stage. In case you decide to follow their versions, you must do click on "Commit button".
-  * <u>Commit message</u>: to describe the message for the commit (git commit -m MESSAGE)
-  * <u>Commit</u>:   is the result of "git commit -m MESSAGE".
-  * <u>Commit and push</u>: these button add the option to upload the changes to the remote repository.  
-  
+- Wordpress. Container: servidor_wp. This container links to the database container
+> $ docker run --name servidor_wp -p 8000:80 --link servidor_mariadb:mariadb -d wordpress
 
 
-6. **Do other changes and commit them**. For example, change "Hello World" to "Bye World". Commit the change with the message "Commit 2".
-![Project commit 2](/img/Eclipse-commit2.png)
+Now, check the installation process is working (use 'links' and connect to the URL "http://IP_servidor_wp"). The IP of the servidor_wp can get by "$docker logs servidor_wp".
 
 
-  We have just realized that we need to **go back** to the initial step because we don't want the new code developed. 
-![Project reset - go back -](/img/Eclipse-reset.png)
-
-
-   What is the content of the file "HelloWorld.java"?  ("Hello World" again?).  Cool!  *Our Version Control System works fine!!*
-
-
-7. It is the time to **upload our local repository to Github** to be shared  to other developers. 
-![Project - upload GitHub-Step 1](/img/Eclipse-Push-1.png)
-![Project - upload GitHub-Step 2](/img/Eclipse-Push-2.png)
-![Project - upload GitHub-Step 3](/img/Eclipse-Push-3.png)
-![Project - upload GitHub-Step 4](/img/Eclipse-Push-4.png)
-![Project - upload GitHub-Step 5](/img/Eclipse-Push-5.png)
-
-We can check that our local project is in Gitthub remote repository.
-![Project - upload GitHub-Step 6](/img/Eclipse-Push-6.png)
-
-
-8. Now the **repository will be shared to other developers**  
-We are going to add collaborators to the project. Click on "Settings" in your repository 'ProyectoGIT". Then go to "Collaborators" section and add the Github username o user email.  
-
-![Project - Collaborators](/img/Github-Collaborators-1.png)
+### Exercise no. 3: Kubernetes
 
 
 
-After this step, the other developer can access to the same repository, i.e., to the same project. The invited collaborator must go to his/her email and accept the invitation.
-![Project - Collaborators](/img/Github-Collaborators-2.png)
-
-The new collaborator can access to the repository from his/her Github account:  
-![Project - Collaborators](/img/Github-Collaborators-3.png)
-
-The usual situation is that the new developer wants to contribute to the project by testing new software locally; so, the next step will be to clone the repository. 
-Follow the steps in [bibliography 5](https://www.youtube.com/watch?v=rQNixJQQ25g). The pictures show what to do:  
-
-Select "Clone a Git Repository and ..." from the view "Git Repositories":  
-
-![Project - Collaborators](/img/Github-Collaborators-4.png)
-
-Now, we must configure the remote repository:  
-
-![Project - Collaborators](/img/Github-Collaborators-5.png)
-The last step is to choose a local folder:
-![Project - Collaborators](/img/Github-Collaborators-6.png)
+### Exercice no. 4: OpenShift
 
 
-
-
-Other way to do it (without using Eclipse)
-> create a folder 
-
-> git clone https://github.com/jlrod2pruebas/ProyectoGIT.git  
-
-> Open Eclipse and import the project
-
-
-From now, the new developer can work in the same project!!! 
-<br><br>
 
 ###  Final Level
 &nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdYfxr0NwK-qqOg-6vPN-WtizHAmeuRz5MwX6N9NXM9W3W-Cg/viewform) to asses your initial level.  
@@ -288,14 +262,17 @@ This criteria mark will be increased even whether grade obtained in the evaluati
 
 
 ### Bibliography
- 1. [Tutorial de Git – Aprende Git y GitHub/GitLab de manera fácil, rápida y sencilla](https://reviblog.net/2018/03/29/tutorial-de-git-aprende-git-y-github-gitlab-de-manera-facil-rapida-y-sencilla-parte-1/)
- 2. [Qué es Markdown, para qué sirve y cómo usarlo](https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo)
- 3. [Sintaxis Markdown](https://markdown.es/sintaxis-markdown/#parrafos)
- 4. [Eclipse Git , Repositorios locales y remotos](https://www.arquitecturajava.com/eclipse-git-repositorios/)
- 5. [Clonar un repositorio Git mediante Eclipse](https://www.youtube.com/watch?v=rQNixJQQ25g)
- 6. [Eclipse Git Tutorial -in English-](https://www.vogella.com/tutorials/EclipseGit/article.html#firstgit_with_eclipse)
-
-
+ 
+ 1. [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/)
+ 2. [Introducción a PaaS - Spanish version](https://github.com/iesgn/cloudandrelated/tree/master/paas)
+ 3. [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
+ 4. [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) 
+ 5. [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/)
+ 6. [Vagrant](https://www.vagrantup.com/intro/index.html)
+ 7. [Vagrant Boxes](https://app.vagrantup.com/boxes/search)
+ 8. [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/)
+ 9. [dockerhub](https://hub.docker.com/)
+ 10. [Ejercicios con Docker](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/ejercicios_docker.md)
 
 
 
