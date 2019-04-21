@@ -129,9 +129,9 @@
     COPY ./public_html /var/www/html/
     ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
     </pre>
-   2.2.- **Create the Docker image**
-   > docker build -t jlr2/aplicacionesweb:v1 .
-   > docker image ls  --> list the docker images created.
+   2.2. **Create the Docker image**
+   > $ docker build -t jlr2/aplicacionesweb:v1 .
+   > $ docker image ls  --> list the docker images created.
    
    3.- **Create/Run a container in the development environment**. 
    > docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
