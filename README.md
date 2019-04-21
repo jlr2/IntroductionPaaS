@@ -144,13 +144,18 @@
    
 &nbsp;&nbsp;&nbsp; We can check our web page by a web browser. Connect locally by using, for example, the text web browser links (URL = http://127.0.0.1).
     <br/><br/><br/>
+    
    4.- **Distribute/Share the Docker image; dockerhub**
-   > Create a Docker account: https://hub.docker.com <br/>
-   > docker push jlr2/aplicacionesweb :v1  --> Upload the image
+   > Create a Docker account: https://hub.docker.com  
+   
+   > docker push jlr2/aplicacionesweb :v1  --> Upload the image  
+   
    We can check it by 2 ways:
-   > docker search jlr2/aplicacioneseweb 
-   > Look for in our Docker account. 
-
+   > docker search jlr2/aplicacioneseweb  
+   
+   > Look for in our Docker account.  
+   
+ <br/><br/><br/>
    5.- **Deploy the application in the production environment**
    >  docker pull jlr2/aplicacionesweb:v1  --> download the image from the dockerhub
    >  docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1   --> create/run the container
