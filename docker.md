@@ -204,7 +204,7 @@
 
 
 ---
-# Introduction to PaaS: develop, deploy, run and manage apps on the Cloud  
+This exercise is included in the activity **Introduction to PaaS: develop, deploy, run and manage apps on the Cloud**
 
 
 
@@ -221,23 +221,3 @@
 
 
 
-### Objective
-&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the microservices based application development approach (vs monolithic applications), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
-
-&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
-<br>
-<br> 
-
-### Index
- 1. Initial level
- 2. Exercise no.1: Introduction to PaaS
- 3. Exercise no.2: Docker
- 4. Exercise no.3: Kubernetes
- 5. Exercice no 4: OpenShift
- 6. Final level
- 7. Others
-    1. Work methodology
-    2. Documentation and exhibitions
-    3. Mark
-    4. Evaluation criteria evaluated
-    5. Bibliography
