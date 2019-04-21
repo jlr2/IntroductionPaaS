@@ -66,10 +66,11 @@
    4. Docker commands summary.
    5. Docker applications example: Wordpress.
    
-&nbsp;&nbsp;&nbsp;The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
+&nbsp;&nbsp;&nbsp;The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/).
 
 ####  Section 1.- Docker installation: virtual machine managed by Vagrant
-   We will practice Docker by using a virtual machine managed by **Vagrant**. 
+&nbsp;&nbsp;&nbsp;  We will practice Docker by using a virtual machine managed by **Vagrant**.
+    s
    Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Go to [Vagrant](https://www.vagrantup.com/intro/index.html) for more details.
    Vagrant is useful for developers, for operators, for designers, for everyone.
    Instead of building a virtual machine from scratch, which would be a slow and tedious process, Vagrant uses a base image to quickly clone a virtual machine. These base images are known as "boxes" in Vagrant, and specifying the box to use for your Vagrant environment is always the first step after creating a new Vagrantfile. We can access to these boxes in [Vagrant Boxes](https://app.vagrantup.com/boxes/search).
