@@ -88,7 +88,7 @@
  <br/><br/>
  &nbsp;&nbsp;&nbsp;  Now, we know the basic concepts in order to install a virtual machine by using a Vagrant box. The next steps are:
    1. Install vagrant    
-   > $ sudo apt install vagrant  -->  We can verify the installatin by *$ vagrant --version*
+   > $ sudo apt install vagrant  -->  We can verify the installation by *$ vagrant --version*
    > $ sudo apt install virtualbox  -->  Install Virtualbox
    <br/>
  &nbsp;&nbsp;&nbsp; The article  [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/) explains the steps.
