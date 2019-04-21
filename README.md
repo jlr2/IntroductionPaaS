@@ -128,11 +128,11 @@
         && apt-get clean && rm -rf /var/lib/apt/lists/*
     COPY ./public_html /var/www/html/
     ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-    </pre>
+    </pre><br/>
    2.2. **Create the Docker image**<br/>
-   > $ docker build -t jlr2/aplicacionesweb:v1 .
-   > $ docker image ls  --> list the docker images created.
-   
+   > $ docker build -t jlr2/aplicacionesweb:v1 .  <br/>
+   > $ docker image ls  --> list the docker images created  <br/>
+   <br/>
    3.- **Create/Run a container in the development environment**. 
    > docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
    > docker container ls --> list the containers created
