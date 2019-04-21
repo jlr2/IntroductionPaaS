@@ -54,7 +54,7 @@
 
 ### Exercise no. 1: Introduction to PaaS
 
-&nbsp;&nbsp;&nbsp;**Read** the [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/) or [Introducción a PaaS - Spanish version](https://github.com/iesgn/cloudandrelated/tree/master/paas) to learn about what is PaaS, differences with SaaS and IaaS, and what the big players (companies) about PaaS.
+&nbsp;&nbsp;&nbsp;**Read** the [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/) or [Introducción a PaaS - Spanish version](https://iesgn.github.io/cloudandrelated/es_paas.html#/) to learn about what is PaaS, differences with SaaS and IaaS, and the big players (companies) about PaaS.
 <br><br>
 
 
@@ -65,10 +65,10 @@
    3. Docker containers: not persistent.
    4. Docker commands summary.
    5. Docker applications example: Wordpress.
-
+   
 &nbsp;&nbsp;&nbsp;The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
 
-## Section 1.- Docker installation: virtual machine managed by Vagrant
+####  Section 1.- Docker installation: virtual machine managed by Vagrant
    We will practice Docker by using a virtual machine managed by **Vagrant**. 
    Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Go to [Vagrant](https://www.vagrantup.com/intro/index.html) for more details.
    Vagrant is useful for developers, for operators, for designers, for everyone.
@@ -91,9 +91,10 @@
 
    Now it is time to install a virtual machine with Docker. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
    Have you been able to connect to the virtual machine and check whether "docker" is running? *Which version do you have?*
+<br><br>
 
 
-##Section 2.- Docker applications lifecycle
+#### Section 2.- Docker applications lifecycle
    After installing an environment with Docker, we are going to develop Docker images and deploy containers to run our applications. The documentation to read is [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/). 
    The reading must have taught you (it is showed a summary:
    1.- **Create the application**. We are going to create a web page *index.html* that will be served by a web server that will run in a Docker container. The web page  and it will be saved in */home/vagrant/public_html/*:
@@ -144,8 +145,9 @@
    >  docker container rm -f aplweb  -->  delete the current container  (in the production environment)
    >  docker run --name aplweb2 -d -p 80:80   jlr2/aplicacionesweb:v2  --> run the new container (in the production environment)
    
+<br><br>
 
-##Section 3.- Docker containers: not persistent.
+#### Section 3.- Docker containers: not persistent.
  - Data stored in a container is not persistent.
  - When data must be stored persistently, volumes must be used.
  - The scenario is: the application is decoupled from the data, that is, the application will run in a container and the data in a persistent medium external to the container. Advantages:
@@ -169,9 +171,10 @@
    > ...
   > show  databases;
 
+<br><br>
 
 
-##Section 4.- Docker commands summary
+#### Section 4.- Docker commands summary
   This section shows a summary of Docker commands. We can see examples in [Ejercicios con Docker](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/ejercicios_docker.md).
   
 - List containers
@@ -195,8 +198,10 @@
     > docker logs CONTAINER-NAME
 - Delete a container
     > $ docker rm  CONTAINER-NAME
-   
-##Section 5.- Docker applications example:  Wordpress
+
+<br><br>
+
+#### Section 5.- Docker applications example:  Wordpress
    Wordpress installation needs 2 containers: one for Wordpress and other for the database:
 - Database server. Container: servidor_mariadb
 > $ docker run --name servidor_mariadb -e MYSQL_ROOT_PASSWORD=asdasd -e MYSQL_DATABASE=wordpress -d mariadb
@@ -206,6 +211,7 @@
 
 
 Now, check the installation process is working (use 'links' and connect to the URL "http://IP_servidor_wp"). The IP of the servidor_wp can get by "$docker logs servidor_wp".
+<br><br>
 
 
 ### Exercise no. 3: Kubernetes
@@ -264,7 +270,7 @@ This criteria mark will be increased even whether grade obtained in the evaluati
 ### Bibliography
  
  1. [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/)
- 2. [Introducción a PaaS - Spanish version](https://github.com/iesgn/cloudandrelated/tree/master/paas)
+ 2. [Introducción a PaaS - Spanish version](https://iesgn.github.io/cloudandrelated/es_paas.html#/)
  3. [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
  4. [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) 
  5. [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/)
