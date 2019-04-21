@@ -83,24 +83,16 @@
  3. The practices must be documentated.
 
 
-### Documentation and exhibition
+### Documentation and meeting exhibition
  1. Only delivery for each group.
- 2. The documentation must include the Erasmus+ project name, number, Erasmus+ logo, IES Ramón del Valle Inclán Logo, the disclaimer. You can find an example in this document (above).
- 3. The documentation must be given in **GitHub**; each group must upload their documentation to GitHub. One component from each group must use his/her GitHub account and add the others components as collaborators.
+ 2. **Documentation special parts**: the documentation must include the **Erasmus+ project name and number, Erasmus+ logo, IES Ramón del Valle Inclán Logo, the disclaimer**. You can find an example in this document (see above).  Other parts are: index, introduction, conclusion.
+ 3. The documentation must be given in **GitHub**; each group must upload their documentation to GitHub. One component from each group must use his/her GitHub account and add the others components as **collaborators**.
  4. All groups must add the teacher as another collaborator.
- 5. The d
- 5. After finishing the documentation, each component must fork into his/her Github account and publish a tweet which contain a link to this documentation.
- 6. All student has to follow the Twitter account from the rest of class mates.
- 
-
-
-    1. Escribe un tweet en el que publiques el enlace del documento que debes crear con JavaDoc con los ejemplos/actividades practicados. Usa el hashtag #ValleInclan_JavaSockets
-    2. Retweetea el tweet de algún compañero.
- 
- 4. These videotutoriales will be uploade to the IT Department account on YouTube.
- 5. Students who have been selected for mobility must submit the documentation in English.
- 6. All the groups will do a  presentation  of the activity in class.
- 7. Students selected for mobility to Italy must prepare a 1-hour workshop to teach the rest of the students from the other participating centers. The objective of the workshop is that attendees learn the most theoretical aspects of GIT and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
+ 5. Documentation content for each group: PENDING.
+ 6. After finishing the documentation, each component must **fork** into his/her Github account and publish a tweet which contain a link to this documentation.
+ 7. All student has to follow the **Twitter account** from the rest of class mates and retweet a tweet from, at least, one class mate.
+ 8. Some students must submit the documentation in English.
+ 9. Students who do the documentation in English must prepare a 1-hour workshop to teach the rest of the students from the other participating schools. The objective of the workshop is that attendees learn the most theoretical aspects of Developing on the Cloud and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
 
 
 ### Mark
@@ -113,13 +105,9 @@
 
 ### Evaluation criteria evaluated
 	
-&nbsp;&nbsp;&nbsp;The activity will serve as an improvement / recovery of the following criteria (in addition to it was indicated in the previous section):  
+&nbsp;&nbsp;&nbsp;The activity serve as an improvement of the skills to develop applications on the Cloud. There are not evaluation criteria related to the professional module "Development Environments" to match to this activity. The mark of this activity  will add to the final mark of the professional module whenever the final mark is equal to or greater than 4.5. This activity will increase the final mark up a maximum of 1 point.
+  
 
-  * 2d + 2e + 2f  
-  * 3e + 3f + 3g + 3h  
-  * 4a + 4b
-
-This criteria mark will be increased even whether grade obtained in the evaluation of the associated learning results is equal to or greater than 4.5, but only in the case the project requested for these criterio have been developed by using GIT with, at least, 2 people in the same group.  
 
 
 
