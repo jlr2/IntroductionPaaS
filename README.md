@@ -58,7 +58,7 @@
 <br><br>
 
 ### Exercise no. 2: Docker
-   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/docker.md) to do this exercice.
+&nbsp;&nbsp;&nbsp;   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/docker.md) to do this exercice.
 
 ### Exercise no. 3: Kubernetes
 

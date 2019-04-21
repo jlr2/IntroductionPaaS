@@ -17,6 +17,7 @@
    5. Docker applications example: Wordpress.
    
 &nbsp;&nbsp;&nbsp;The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/).
+<br/><br/>
 
 ####  Section 1.- Docker installation: virtual machine managed by Vagrant
 &nbsp;&nbsp;&nbsp;  We will practice Docker by using a virtual machine managed by **Vagrant**.
