@@ -128,7 +128,8 @@
         apache2 \
         && apt-get clean && rm -rf /var/lib/apt/lists/*
     COPY ./public_html /var/www/html/
-    ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]  </pre>
+    ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"] </pre>
+    
  &nbsp;&nbsp;&nbsp;  2.2.- **Create the Docker image**
    > $ docker build -t jlr2/aplicacionesweb:v1 .  <br/>
    > $ docker image ls  --> list the docker images created  <br/>
