@@ -33,18 +33,17 @@
 <br> 
 
 ### Index
- 1. Initial level
- 2. Exercise no.1: Introduction to PaaS
- 3. Exercise no.2: Docker
- 4. Exercise no.3: Kubernetes
- 5. Exercice no 4: OpenShift
- 6. Final level
- 7. Others
-    1. Work methodology
-    2. Documentation and exhibitions
-    3. Mark
-    4. Evaluation criteria evaluated
-    5. Bibliography
+ -  Initial level
+ -  Exercise no.1: Introduction to PaaS
+ -  Exercise no.2: Docker
+ -  Exercise no.3: Kubernetes
+ -  Exercice no 4: OpenShift
+ -  Final level
+ -  Others
+    * Work methodology
+    * Documentation and exhibitions
+    * Mark && Evaluation criteria evaluated
+    * Bibliography
  
 
 
