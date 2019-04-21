@@ -26,7 +26,7 @@
 
 
 ### Objective
-&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the microservices based application development approach (vs monolithic applications), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
+&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the **microservices based application** development approach (vs **monolithic applications**), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
 
 &nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
 <br>
@@ -64,7 +64,7 @@
 
 
 
-### Exercice no. 4: OpenShift
+### Exercise no. 4: OpenShift
 
 
 
@@ -85,8 +85,18 @@
 
 ### Documentation and exhibition
  1. Only delivery for each group.
- 2. The documentation must include practices about exercises 2 and 3 and explain the relationship between GIT in Eclipse/ Eclipse Che with GIT commands. 
- 3. The documentation format is a videotutorial. It must follows the guide for [videotutorials](https://docs.google.com/document/d/1WV89OADdWK86i5uplX4zYoLHmDxdDgc-HiDkf1QdzN4/edit?usp=sharing).
+ 2. The documentation must include the Erasmus+ project name, number, Erasmus+ logo, IES Ramón del Valle Inclán Logo, the disclaimer. You can find an example in this document (above).
+ 3. The documentation must be given in **GitHub**; each group must upload their documentation to GitHub. One component from each group must use his/her GitHub account and add the others components as collaborators.
+ 4. All groups must add the teacher as another collaborator.
+ 5. The d
+ 5. After finishing the documentation, each component must fork into his/her Github account and publish a tweet which contain a link to this documentation.
+ 6. All student has to follow the Twitter account from the rest of class mates.
+ 
+
+
+    1. Escribe un tweet en el que publiques el enlace del documento que debes crear con JavaDoc con los ejemplos/actividades practicados. Usa el hashtag #ValleInclan_JavaSockets
+    2. Retweetea el tweet de algún compañero.
+ 
  4. These videotutoriales will be uploade to the IT Department account on YouTube.
  5. Students who have been selected for mobility must submit the documentation in English.
  6. All the groups will do a  presentation  of the activity in class.
