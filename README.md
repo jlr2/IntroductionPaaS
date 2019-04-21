@@ -111,8 +111,7 @@
    > $ cd public_html<br/>
    > $ echo "&lt;h1&gt;Prueba&lt;/h1&gt;" > index.html <br/>
 
-    Install vagrant    
-   > $ 
+   
 <br/><br/>
  
    2. **Create a Docker image**. <br/>
@@ -123,7 +122,7 @@
    > ENTRYPOINT --> We indicate the service that will run the container (apache server)  <br/>
 <br/>
  &nbsp;&nbsp;&nbsp; Example.  Define an image with debian, install Apache2, copy our webpage to the public directory of Apache and start Apache. Note: the image *debian* is downloaded from [dockerhub](https://hub.docker.com/)
-   <pre> FROM debian
+   <pre>&nbsp;&nbsp;&nbsp; FROM debian
     RUN apt-get update -y && apt-get install -y \
         apache2 \
         && apt-get clean && rm -rf /var/lib/apt/lists/*
