@@ -54,23 +54,23 @@
 ### Exercise no. 1: Introduction to PaaS
 
 &nbsp;&nbsp;&nbsp;**Read** the [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/) or [Introducción a PaaS - Spanish version](https://iesgn.github.io/cloudandrelated/es_paas.html#/) to learn about what is PaaS, differences with SaaS and IaaS, and the big players (companies) about PaaS.
-<br><br>
+<br/><br/>
 
 ### Exercise no. 2: Docker
 &nbsp;&nbsp;&nbsp;   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/docker.md) to do this exercice.
-
+<br/><br/>
 ### Exercise no. 3: Kubernetes
 
-
+<br/><br/>
 
 ### Exercise no. 4: OpenShift
 
-
+<br/><br/>
 
 ###  Final Level
 &nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLScqCXOWScrue9vgyYyaETbN1l7jxj6AVFmqfERscuElcz6ZoA/viewform) to asses your initial level.  
 
-
+<br/><br/>
 
 
 
@@ -93,7 +93,7 @@
  8. Some students must submit the documentation **in English**.
  9. Students who do the documentation in English must prepare a **1-hour workshop** to teach the rest of the students from the other participating schools. The objective of the workshop is that attendees learn the most theoretical aspects of Developing on the Cloud and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
 
-
+<br/><br/>
 
 
 ### Mark && Evaluation criteria evaluated
