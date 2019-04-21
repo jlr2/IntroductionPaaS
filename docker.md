@@ -204,7 +204,7 @@
 
 
 ---
-This exercise is included in the activity **Introduction to PaaS: develop, deploy, run and manage apps on the Cloud**
+This exercise  is part of the activity **Introduction to PaaS: develop, deploy, run and manage apps on the Cloud**
 
 
 
