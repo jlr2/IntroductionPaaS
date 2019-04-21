@@ -178,28 +178,36 @@
 <br/><br/><br/>
 
 #### Section 3.- Docker containers: not persistent.
+&nbsp;&nbsp;&nbsp;This section explains the need to use persistent volumes due to data in containers are lost. Read [Uso de volúmenes persistentes](https://iesgn.github.io/cloudandrelated/es_docker.html#/10).  
+    This is a summary about the previous reading:  
  - Data stored in a container is not persistent.
  - When data must be stored persistently, volumes must be used.
- - The scenario is: the application is decoupled from the data, that is, the application will run in a container and the data in a persistent medium external to the container. Advantages:
-+ If the container fails, information is not lost, you only need to create a new container.
-+ If the data is updated it is not necessary to build a new image.
- - Example: 
- * we are going to create a container with a MySQL server; the data is stored in a persistent volume:
-  > $ docker run --name some-mysql -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
- * Create a database called *dbtest*
- > $ docker exec -it some-mysql bash
-   > root@75544a024f9b:/# mysql -u root -p -h localhost
-   > ...
-  > create database dbtest;
- * Delete the container.
- > $ docker container rm -f some-mysql
- * Create a new container:
- > $ docker run --name some-mysql2 -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
- * Verify that the database is still created
- > $ docker exec -it some-mysql bash
-   > root@75544a024f9b:/# mysql -u root -p -h localhost
-   > ...
-  > show  databases;
+ - The scenario is: the **application is decoupled from the data**, that is, the application will run in a container and the data in a persistent medium external to the container. Advantages:
+   + If the container fails, information is not lost, you only need to create a new container.
+   + If the data is updated it is not necessary to build a new image.
+ - Example
+    * We are going to create a container with a MySQL server; the data is stored in a persistent volume:
+        > $ docker run --name some-mysql -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
+    * Create a database called *dbtest*
+        > $ docker exec -it some-mysql bash  
+        
+        > root@75544a024f9b:/# mysql -u root -p -h localhost  
+        
+        > ...  
+        
+        > create database dbtest;
+    * Delete the container  
+    > $ docker container rm -f some-mysql
+    * Create a new container:
+    > $ docker run --name some-mysql2 -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
+    * Verify that the database is still created
+    > $ docker exec -it some-mysql bash  
+    
+    > root@75544a024f9b:/# mysql -u root -p -h localhost  
+    
+    > ...  
+    
+    > show  databases;
 
 <br><br>
 
@@ -309,6 +317,7 @@ This criteria mark will be increased even whether grade obtained in the evaluati
  8. [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/)
  9. [dockerhub](https://hub.docker.com/)
  10. [Ejercicios con Docker](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/ejercicios_docker.md)
+ 11. [Uso de volúmenes persistentes](https://iesgn.github.io/cloudandrelated/es_docker.html#/10)
 
 
 
