@@ -185,7 +185,7 @@
  - The scenario is: the **application is decoupled from the data**, that is, the application will run in a container and the data in a persistent medium external to the container. Advantages:
    + If the container fails, information is not lost, you only need to create a new container.
    + If the data is updated it is not necessary to build a new image.
- - Example
+ - **Example: database in a persistent volume**:
     * We are going to create a container with a MySQL server; the data is stored in a persistent volume:
         > $ docker run --name some-mysql -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
     * Create a database called *dbtest*
@@ -216,8 +216,9 @@
   This section shows a summary of Docker commands. We can see examples in [Ejercicios con Docker](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/ejercicios_docker.md).
   
 - List containers
-    > $ docker ps
-    > $ docker container ls 
+    > $ docker ps  
+    
+    > $ docker container ls
 - List images
     > $ docker image ls
 - Create a container and establish an interactive session
@@ -240,7 +241,7 @@
 <br><br>
 
 #### Section 5.- Docker applications example:  Wordpress
-   Wordpress installation needs 2 containers: one for Wordpress and other for the database:
+&nbsp;&nbsp;&nbsp; Wordpress installation needs 2 containers: one for Wordpress and other for the database:
 - Database server. Container: servidor_mariadb
 > $ docker run --name servidor_mariadb -e MYSQL_ROOT_PASSWORD=asdasd -e MYSQL_DATABASE=wordpress -d mariadb
 
@@ -248,7 +249,7 @@
 > $ docker run --name servidor_wp -p 8000:80 --link servidor_mariadb:mariadb -d wordpress
 
 
-Now, check the installation process is working (use 'links' and connect to the URL "http://IP_servidor_wp"). The IP of the servidor_wp can get by "$docker logs servidor_wp".
+&nbsp;&nbsp;&nbsp;Now, check the installation process is working (use 'links' and connect to the URL "http://IP_servidor_wp"). The IP of the servidor_wp can get by "$docker logs servidor_wp".  
 <br><br>
 
 
