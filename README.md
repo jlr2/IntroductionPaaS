@@ -136,6 +136,7 @@
    > $ docker image ls  --> list the docker images created
    
    <br/>
+   
   3. **Create/Run a container in the development environment**.
    > $ docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
    <br/>
