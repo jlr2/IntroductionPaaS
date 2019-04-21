@@ -179,7 +179,7 @@
 
 #### Section 3.- Docker containers: not persistent.
 &nbsp;&nbsp;&nbsp;This section explains the need to use persistent volumes due to data in containers are lost. Read [Uso de volúmenes persistentes](https://iesgn.github.io/cloudandrelated/es_docker.html#/10).  
-    This is a summary about the previous reading:  
+&nbsp;&nbsp;&nbsp;This is a summary about the previous reading:  
  - Data stored in a container is not persistent.
  - When data must be stored persistently, volumes must be used.
  - The scenario is: the **application is decoupled from the data**, that is, the application will run in a container and the data in a persistent medium external to the container. Advantages:
@@ -197,17 +197,17 @@
         
         > create database dbtest;
     * Delete the container  
-    > $ docker container rm -f some-mysql
+        > $ docker container rm -f some-mysql
     * Create a new container:
-    > $ docker run --name some-mysql2 -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
+        > $ docker run --name some-mysql2 -v /opt/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=asdasd -d mysql
     * Verify that the database is still created
-    > $ docker exec -it some-mysql bash  
+        > $ docker exec -it some-mysql bash  
     
-    > root@75544a024f9b:/# mysql -u root -p -h localhost  
+        > root@75544a024f9b:/# mysql -u root -p -h localhost  
     
-    > ...  
+        > ...  
     
-    > show  databases;
+       > show  databases;
 
 <br><br>
 
