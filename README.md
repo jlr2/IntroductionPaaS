@@ -133,8 +133,8 @@
  &nbsp;&nbsp;&nbsp;  2.2.- **Create the Docker image**
    > $ docker build -t jlr2/aplicacionesweb:v1 .  <br/>
    > $ docker image ls  --> list the docker images created  <br/>
-   <br/>
- &nbsp;&nbsp;&nbsp;  3. **Create/Run a container in the development environment**. 
+   <br/><br/>
+ &nbsp;&nbsp;&nbsp;  3. **Create/Run a container in the development environment**.
    > docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
    > docker container ls --> list the containers created
    We can check our web page by a web browser. Connect locally by using, for example, the text web browser links (URL = http://127.0.0.1).
