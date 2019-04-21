@@ -117,11 +117,11 @@
    2. **Create a Docker image**. <br/>
    2.1.- Using a **Dockerfile** we define how we are going to create our image:
     <pre>&nbsp;&nbsp;&nbsp;
-    FROM -->       Which base image we are going to use  <br/>
-    RUN  -->       Which packages we are going to install  <br/>
-    COPY -->       Where we copy our source code (web page)  <br/>
+    FROM -->       Which base image we are going to use  
+    RUN  -->       Which packages we are going to install  
+    COPY -->       Where we copy our source code (web page) 
     ENTRYPOINT --> We indicate the service that will run the container (apache server) </pre>
-<br/>
+
  &nbsp;&nbsp;&nbsp; Example.  Define an image with debian, install Apache2, copy our webpage to the public directory of Apache and start Apache. Note: the image *debian* is downloaded from [dockerhub](https://hub.docker.com/)
    <pre>&nbsp;&nbsp;&nbsp; FROM debian
     RUN apt-get update -y && apt-get install -y \
