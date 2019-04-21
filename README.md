@@ -96,35 +96,38 @@
 
 <br/><br/>
  &nbsp;&nbsp;&nbsp; 
-   Now it is time to **install a virtual machine with Docker**. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
+   Finally, we are going to **install a virtual machine with Docker**. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
    <br/><br/>
- &nbsp;&nbsp;&nbsp;  Have you been able to connect to the virtual machine and check whether "docker" is running? *Which version do you have?*
+ &nbsp;&nbsp;&nbsp;  Have you been able to connect to the virtual machine and check whether "Docker" is running? *Which Docker version do you have?*
 <br><br>
 
 
 #### Section 2.- Docker applications lifecycle
-   After installing an environment with Docker, we are going to develop Docker images and deploy containers to run our applications. The documentation to read is [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/). 
-   The reading must have taught you (it is showed a summary:
-   1.- **Create the application**. We are going to create a web page *index.html* that will be served by a web server that will run in a Docker container. The web page  and it will be saved in */home/vagrant/public_html/*:
-    > $ mkdir public_html <br>
-    > $ cd public_html<br>
-    > $ echo “<h1>Prueba></h1>” > index.html
-
+<br/><br/>
+ &nbsp;&nbsp;&nbsp;After installing an environment with Docker, we are going to develop Docker images and deploy containers to run our applications. The documentation to read is [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/). 
+<br/><br/>
+ &nbsp;&nbsp;&nbsp; The reading must have taught you (it is showed a summary:
+   1. **Create the application**. We are going to create a web page *index.html* that will be served by a web server that will run in a Docker container. The web page  and it will be saved in */home/vagrant/public_html/*:
+    > $ mkdir public_html <br/>
+    > $ cd public_html<br/>
+    > $ echo “<h1>Prueba></h1>” > index.html<br/>
+<br/><br/>
  
-   2.- **Create a Docker image**. 
+   2. **Create a Docker image**. <br/>
    2.1.- Using a **Dockerfile** we define how we are going to create our image:
-   > FROM -->       Which base image we are going to use
-   > RUN  -->       Which packages we are going to install
-   > COPY -->       Where we copy our source code (web page)
-   > ENTRYPOINT --> We indicate the service that will run the container (apache server)
-    Example.  Define an image with debian, install Apache2, copy our webpage to the public directory of Apache and start Apache. Note: the image *debian* is downloaded from [dockerhub](https://hub.docker.com/)
-    FROM debian
+   > FROM -->       Which base image we are going to use  <br/>
+   > RUN  -->       Which packages we are going to install  <br/>
+   > COPY -->       Where we copy our source code (web page)  <br/>
+   > ENTRYPOINT --> We indicate the service that will run the container (apache server)  <br/>
+<br/>
+ &nbsp;&nbsp;&nbsp; Example.  Define an image with debian, install Apache2, copy our webpage to the public directory of Apache and start Apache. Note: the image *debian* is downloaded from [dockerhub](https://hub.docker.com/)
+   <pre> FROM debian
     RUN apt-get update -y && apt-get install -y \
         apache2 \
         && apt-get clean && rm -rf /var/lib/apt/lists/*
     COPY ./public_html /var/www/html/
     ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-
+    </pre>
    2.2.- **Create the Docker image**
    > docker build -t jlr2/aplicacionesweb:v1 .
    > docker image ls  --> list the docker images created.
