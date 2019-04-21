@@ -91,21 +91,15 @@
  5. Documentation content for each group: PENDING.
  6. After finishing the documentation, each component must **fork** into his/her Github account and publish a tweet which contain a link to this documentation.
  7. All student has to follow the **Twitter account** from the rest of class mates and retweet a tweet from, at least, one class mate.
- 8. Some students must submit the documentation in English.
- 9. Students who do the documentation in English must prepare a 1-hour workshop to teach the rest of the students from the other participating schools. The objective of the workshop is that attendees learn the most theoretical aspects of Developing on the Cloud and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
-
-
-### Mark
-&nbsp;&nbsp;&nbsp;This activity is part of the Erasmus + project "Cloud Computing in  European schools". All students must complete it. An increase up to 1 point will be added in the final mark of the professional module where the activity is developed, provided that the grade obtained in the evaluation of the associated learning results is equal to or greater than 5.      
+ 8. Some students must submit the documentation **in English**.
+ 9. Students who do the documentation in English must prepare a **1-hour workshop** to teach the rest of the students from the other participating schools. The objective of the workshop is that attendees learn the most theoretical aspects of Developing on the Cloud and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
 
 
 
 
-
-
-### Evaluation criteria evaluated
+### Mark && Evaluation criteria evaluated
 	
-&nbsp;&nbsp;&nbsp;The activity serve as an improvement of the skills to develop applications on the Cloud. There are not evaluation criteria related to the professional module "Development Environments" to match to this activity. The mark of this activity  will add to the final mark of the professional module whenever the final mark is equal to or greater than 4.5. This activity will increase the final mark up a maximum of 1 point.
+&nbsp;&nbsp;&nbsp;The activity serve as an improvement of the skills to develop applications on the Cloud. There are not evaluation criteria related to the professional module "Development Environments" to match to this activity. The mark of this activity  will add to the final mark of the professional module whenever the final mark is equal to or greater than 4.5 (evaluation of the associated learning results of the professional module). This activity will increase the final mark up a maximum of 1 point.
   
 
 
