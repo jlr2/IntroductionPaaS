@@ -92,10 +92,9 @@
    > $ sudo apt install vagrant  -->  We can verify the installation by *$ vagrant --version*<br/>
    > $ sudo apt install virtualbox  -->  Install Virtualbox<br/>
    
- &nbsp;&nbsp;&nbsp;[How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/) explains the steps.
+ &nbsp;&nbsp;&nbsp;The article [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/) explains the steps.
 
 <br/><br/>
-[How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/)
  &nbsp;&nbsp;&nbsp; 
    Now it is time to **install a virtual machine with Docker**. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
    <br/><br/>
