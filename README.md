@@ -109,7 +109,7 @@
    1. **Create the application**. We are going to create a web page *index.html* that will be served by a web server that will run in a Docker container. The web page  and it will be saved in */home/vagrant/public_html/*: <br/>
    > $ mkdir public_html <br/>
    > $ cd public_html<br/>
-   > <xmp>$ echo "<h1>Prueba</h1>" > index.html'</xmp> <br/>
+   > $ echo "&lt;h1&gt;Prueba&lt;/h1&gt;" '>' index.html" <br/>
 
     Install vagrant    
    > $ 
