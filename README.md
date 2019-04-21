@@ -131,17 +131,17 @@
     ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"] </pre>
     
  &nbsp;&nbsp;&nbsp;  2.2.- **Create the Docker image**
-   > $ docker build -t jlr2/aplicacionesweb:v1 . 
+   > $ docker build -t jlr2/aplicacionesweb:v1 .  
    
-   > $ docker image ls  --> list the docker images created
+   > $ docker image ls  --> list the docker images created  
    
    <br/>
    
   3. **Create/Run a container in the development environment**.
    > $ docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
-   <br/>
-   > $ docker container ls --> list the containers created 
-   <br/>    
+   
+   > $ docker container ls --> list the containers created
+   
    We can check our web page by a web browser. Connect locally by using, for example, the text web browser links (URL = http://127.0.0.1).
     <br/>
    4.- **Distribute/Share the Docker image; dockerhub**
