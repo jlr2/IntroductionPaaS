@@ -49,7 +49,7 @@
 
 ###  Initial Level
 &nbsp;&nbsp;&nbsp;Do this [questionnarie: professional competence](https://docs.google.com/forms/d/e/1FAIpQLSdlYr6VB7r5667owEp6ux3v7762ZBXslI_jGOuB4zoLbnCRBg/viewform) to asses your initial level on the **professional competence** (PaaS). 
-<br/><br/>
+<br/>
  &nbsp;&nbsp;&nbsp;Besides, do this other [questionnarie: digital competence](https://docs.google.com/forms/d/e/1FAIpQLSeK6Rg6fC6ZNVeR05qtfVloTwQ_VKZvLSfZISwq4dUdD96slQ/viewform) for evaluation of the **digital competence** (Social Networks) 
 <br><br>
 
@@ -71,7 +71,7 @@
 
 ###  Final Level
 &nbsp;&nbsp;&nbsp;Do this [questionnarie: professional competence](https://docs.google.com/forms/d/e/1FAIpQLScqCXOWScrue9vgyYyaETbN1l7jxj6AVFmqfERscuElcz6ZoA/viewform) to asses your final level on the **professional competence** (PaaS). 
-<br/><br/>
+<br/>
  &nbsp;&nbsp;&nbsp;Besides, do this other [questionnarie: digital competence](https://docs.google.com/forms/d/e/1FAIpQLSfGol0Ljr_slYc3Ayis3PijobKe31ZEInjO1ZOB0b2E0q5Cbg/viewform) for evaluation of the **digital competence** (Social Networks) 
 
 
