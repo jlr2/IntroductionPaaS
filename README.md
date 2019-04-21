@@ -139,10 +139,11 @@
    
   3. **Create/Run a container in the development environment**.
    > $ docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1  
+   
    > $ docker container ls --> list the containers created  
    
-   We can check our web page by a web browser. Connect locally by using, for example, the text web browser links (URL = http://127.0.0.1).
-    <br/>
+&nbsp;&nbsp;&nbsp; We can check our web page by a web browser. Connect locally by using, for example, the text web browser links (URL = http://127.0.0.1).
+    <br/><br/><br/>
    4.- **Distribute/Share the Docker image; dockerhub**
    > Create a Docker account: https://hub.docker.com <br/>
    > docker push jlr2/aplicacionesweb :v1  --> Upload the image
