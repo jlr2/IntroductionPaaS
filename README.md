@@ -153,22 +153,29 @@
    We can check it by 2 ways:
    > docker search jlr2/aplicacioneseweb  
    
-   > Look for in our Docker account.  
+   > Look for in our Docker account (dockerhub).  
    
  <br/><br/><br/>
    5.- **Deploy the application in the production environment**
-   >  docker pull jlr2/aplicacionesweb:v1  --> download the image from the dockerhub
-   >  docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1   --> create/run the container
-
+   >  docker pull jlr2/aplicacionesweb:v1  --> download the image from the dockerhub  
+   
+   >  docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1   --> create/run the container  
+   
+<br/><br/><br/>
    6.- **Modify the application** In case we modify the application it is necessary to build a new image:
-   >  echo "<h1>Prueba 2</h1>" > index.htm   -->  modify the application
-   >  docker build -t josedom24/aplicacionweb:v2  -->  create the new image (in the development environment)
-   >  docker push jlr2/aplicacionesweb :v2  --> upload the new image
-   >  docker pull  jlr2/aplicacionesweb :v2  --> (download the new image to the production environment)
-   >  docker container rm -f aplweb  -->  delete the current container  (in the production environment)
+   >  echo "&lt;h1&gt;Prueba2&lt;/h1&gt;" > index.htm   -->  modify the application  
+   
+   >  docker build -t josedom24/aplicacionweb:v2  -->  create the new image (in the development environment)  
+   
+   >  docker push jlr2/aplicacionesweb :v2  --> upload the new image  
+   
+   >  docker pull  jlr2/aplicacionesweb :v2  --> (download the new image to the production environment)  
+   
+   >  docker container rm -f aplweb  -->  delete the current container  (in the production environment)  
+   
    >  docker run --name aplweb2 -d -p 80:80   jlr2/aplicacionesweb:v2  --> run the new container (in the production environment)
    
-<br><br>
+<br/><br/><br/>
 
 #### Section 3.- Docker containers: not persistent.
  - Data stored in a container is not persistent.
