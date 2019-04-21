@@ -48,7 +48,7 @@
 
 
 ###  Initial Level
-&nbsp;&nbsp;&nbsp;  Do this [questionnarie](PENDING) to asses your initial level.  
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdlYr6VB7r5667owEp6ux3v7762ZBXslI_jGOuB4zoLbnCRBg/viewform) to asses your initial level.  
 <br><br>
 
 ### Exercise no. 1: Introduction to PaaS
@@ -68,7 +68,7 @@
 
 
 ###  Final Level
-&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdYfxr0NwK-qqOg-6vPN-WtizHAmeuRz5MwX6N9NXM9W3W-Cg/viewform) to asses your initial level.  
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLScqCXOWScrue9vgyYyaETbN1l7jxj6AVFmqfERscuElcz6ZoA/viewform) to asses your initial level.  
 
 
 
