@@ -81,7 +81,7 @@
  2. The class will be distributed in groups and each group have to practice the exercises proposed in this activity.
  3. The practices must be documentated.
 
-
+<br/><br/>
 ### Documentation and meeting exhibition
  1. Only delivery for each group.
  2. **Documentation special parts**: the documentation must include the **Erasmus+ project name and number, Erasmus+ logo, IES Ramón del Valle Inclán Logo, the disclaimer**. You can find an example in this document (see above).  Other parts are: index, introduction, conclusion.
@@ -102,7 +102,7 @@
   
 
 
-
+<br/><br/>
 
 ### Bibliography
  
