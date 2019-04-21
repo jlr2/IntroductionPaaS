@@ -3,7 +3,7 @@
 
  Number: Project: 2017-1-ES01-KA202-038471
 
-<img src="/img/cofinanciadoEN.png" height="75" width="200"> <img src="/img/logoIES-Modificado.png" height="30" width="200">  
+<img src="/img/cofinanciadoEN.png" height="50" width="200"> <img src="/img/logoIES-Modificado.png" height="75" width="200">  
 
 
 
