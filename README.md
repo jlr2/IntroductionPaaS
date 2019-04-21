@@ -71,27 +71,31 @@
 ####  Section 1.- Docker installation: virtual machine managed by Vagrant
 &nbsp;&nbsp;&nbsp;  We will practice Docker by using a virtual machine managed by **Vagrant**.
 <br/><br/>
-   Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Go to [Vagrant](https://www.vagrantup.com/intro/index.html) for more details.
-   Vagrant is useful for developers, for operators, for designers, for everyone.
-   Instead of building a virtual machine from scratch, which would be a slow and tedious process, Vagrant uses a base image to quickly clone a virtual machine. These base images are known as "boxes" in Vagrant, and specifying the box to use for your Vagrant environment is always the first step after creating a new Vagrantfile. We can access to these boxes in [Vagrant Boxes](https://app.vagrantup.com/boxes/search).
+ &nbsp;&nbsp;&nbsp; Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Go to [Vagrant](https://www.vagrantup.com/intro/index.html) for more details.
+<br/><br/>
+ &nbsp;&nbsp;&nbsp; Vagrant is useful for developers, for operators, for designers, for everyone.
+ <br/><br/>
+ &nbsp;&nbsp;&nbsp; Instead of building a virtual machine from scratch, which would be a slow and tedious process, Vagrant uses a base image to quickly clone a virtual machine. These base images are known as "boxes" in Vagrant, and specifying the box to use for your Vagrant environment is always the first step after creating a new Vagrantfile. We can access to these boxes in [Vagrant Boxes](https://app.vagrantup.com/boxes/search).
    The next commands are the basic ones:
-   1.- **vagrant box add …** →  download image / box from Vagrant repository.  Example: vagrant box add ubuntu/bionic64 --provider virtualbox  --> download an image (box) of Ubuntu verson Bionic 64 bits for VirtualBox.
-   2.- **vagrant box list** →   list all downloaded images / boxes.
-   3.- **mkdir FOLDER**  → create folder where we will create the Vagrantfile file that will contain the definition of the MV.
-   4.- **cd FOLDER**  →  go in inside the folder.
-   5.- **vagrant init BOX**  →    The MV files are located in the directory where the hypervisor (VirtualBox, VMWare ...) stores its MVs. In FOLDER, the VagrantFile file, a log file and a hidden .vagrant folder will be saved.  Example: vagrant init ubuntu/bionic64 --> the box used is ubuntu bionic 64.
-   7.- **vagrant up**  →  start the MV  --> We can check the virtual machine runnning by open the VirtualBox app.
-   5.- **vagrant ssh** →  connect to the MV
-   6.- **vagrant halt** → stop the MV
-  
-
-   Now, we know the basic concepts in order to install a virtual machine by using a Vagrant box. The next steps are:
-   1.- Install vagrant    ($ sudo apt install virtualbox).  We can verify the installatin by *$  --version*
-   2.- Install Virtualbox  ($ sudo apt install virtualbox). 
-   The article  [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/) explains the steps.
-
-   Now it is time to install a virtual machine with Docker. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
-   Have you been able to connect to the virtual machine and check whether "docker" is running? *Which version do you have?*
+   1. **vagrant box add …** →  download image / box from Vagrant repository.  Example: vagrant box add ubuntu/bionic64 --provider virtualbox  --> download an image (box) of Ubuntu verson Bionic 64 bits for VirtualBox.
+   2. **vagrant box list** →   list all downloaded images / boxes.
+   3. **mkdir FOLDER**  → create folder where we will create the Vagrantfile file that will contain the definition of the MV.
+   4. **cd FOLDER**  →  go in inside the folder.
+   5. **vagrant init BOX**  →    The MV files are located in the directory where the hypervisor (VirtualBox, VMWare ...) stores its MVs. In FOLDER, the VagrantFile file, a log file and a hidden .vagrant folder will be saved.  Example: vagrant init ubuntu/bionic64 --> the box used is ubuntu bionic 64.
+   7. **vagrant up**  →  start the MV  --> We can check the virtual machine runnning by open the VirtualBox app.
+   5. **vagrant ssh** →  connect to the MV
+   6. **vagrant halt** → stop the MV
+ <br/><br/>
+ &nbsp;&nbsp;&nbsp;  Now, we know the basic concepts in order to install a virtual machine by using a Vagrant box. The next steps are:
+   1. Install vagrant    ($ sudo apt install virtualbox).  We can verify the installatin by *$  --version*
+   2. Install Virtualbox  ($ sudo apt install virtualbox).
+   <br/>
+ &nbsp;&nbsp;&nbsp; The article  [How to install Vagrant on Ubuntu 18.04](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/) explains the steps.
+<br/><br/>
+ &nbsp;&nbsp;&nbsp; 
+   Now it is time to **install a virtual machine with Docker**. Follow [Installation of Docker - Spanish version](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/docker.md) to do it. Note: We don't use *vagrant init BOX*; instead of this, we create a Vagrantfile with the content that appears in the previous link.
+   <br/><br/>
+ &nbsp;&nbsp;&nbsp;  Have you been able to connect to the virtual machine and check whether "docker" is running? *Which version do you have?*
 <br><br>
 
 
