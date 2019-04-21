@@ -130,7 +130,7 @@
     COPY ./public_html /var/www/html/
     ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
     </pre>
-   2.2.- Now, **create the Docker image**<br/>
+   2.2.- **Create the Docker image**
    > $ docker build -t jlr2/aplicacionesweb:v1 .  <br/>
    > $ docker image ls  --> list the docker images created  <br/>
    <br/>
