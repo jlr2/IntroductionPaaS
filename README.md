@@ -28,13 +28,13 @@
 ### Objective
 &nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the microservices based application development approach (vs monolithic applications), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
 
-&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European School".
+&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
 <br>
 <br> 
 
 ### Index
  1. Initial level
- 2. Exercice no.1: Introduction to PaaS
+ 2. Exercise no.1: Introduction to PaaS
  3. Exercise no.2: Docker
  4. Exercise no.3: Kubernetes
  5. Exercice no 4: OpenShift
@@ -54,19 +54,19 @@
 
 ### Exercise no. 1: Introduction to PaaS
 
-&nbsp;&nbsp;&nbsp;**Read** the [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/) or [Introducción a PaaS - Spanish version](https://github.com/iesgn/cloudandrelated/tree/master/paas) to learn about what is PaaS, differences with SaaS and IaaS, and what the big player (companies) about PaaS.
-
+&nbsp;&nbsp;&nbsp;**Read** the [Introduction to PaaS - English version](https://iesgn.github.io/cloudandrelated/paas.html#/) or [Introducción a PaaS - Spanish version](https://github.com/iesgn/cloudandrelated/tree/master/paas) to learn about what is PaaS, differences with SaaS and IaaS, and what the big players (companies) about PaaS.
+<br><br>
 
 
 ### Exercise no. 2: Docker
-   After learning what is the scope of PaaS,  now it is time to start the study of the first level: the containers.  Docker is the most used solution nowaday.  We are going to structure the learning of Docker in the next sections:
-   1.- Docker installation: virtual machine managed by Vagrant.
-   2.- Docker applications lifecycle.
-   3.- Docker containers: not persistent.
-   4.- Docker commands summary.
-   5.- Docker applications examples: static webpage, wordpress.
+&nbsp;&nbsp;&nbsp;After learning what is the scope of PaaS,  now it is time to start the study of the first level: the **containers**.  Docker is the most used solution nowaday.  We are going to structure the learning of Docker in the next sections:
+   1. Docker installation: virtual machine managed by Vagrant.
+   2. Docker applications lifecycle.
+   3. Docker containers: not persistent.
+   4. Docker commands summary.
+   5. Docker applications example: Wordpress.
 
-  The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
+&nbsp;&nbsp;&nbsp;The sections will be explained by following a Spanish documentation, but you can also read an English version: [Docker - English version](https://iesgn.github.io/cloudandrelated/docker.html#/)
 
 ## Section 1.- Docker installation: virtual machine managed by Vagrant
    We will practice Docker by using a virtual machine managed by **Vagrant**. 
@@ -196,7 +196,7 @@
 - Delete a container
     > $ docker rm  CONTAINER-NAME
    
-##Section 5.- Docker applications example:  wordpress
+##Section 5.- Docker applications example:  Wordpress
    Wordpress installation needs 2 containers: one for Wordpress and other for the database:
 - Database server. Container: servidor_mariadb
 > $ docker run --name servidor_mariadb -e MYSQL_ROOT_PASSWORD=asdasd -e MYSQL_DATABASE=wordpress -d mariadb
