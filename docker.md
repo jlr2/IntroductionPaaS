@@ -8,48 +8,6 @@
 
 
 
-# Introduction to PaaS: develop, deploy, run and manage apps on the Cloud  
-
-
-
-#### Disclaimer
-&nbsp;&nbsp;&nbsp;  *"The European Commission support for the production of this publication does not constitute an endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein."*
-
-
-
-
-#### Author
-
-&nbsp;&nbsp;&nbsp;  This material has been produced by José Luis Rodríguez Rodríguez under the Creative Commons licence:  <img src="/img/Licencia-Tipo2.png" height="25" width="75">  
-
-
-
-
-### Objective
-&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the microservices based application development approach (vs monolithic applications), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
-
-&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
-<br>
-<br> 
-
-### Index
- 1. Initial level
- 2. Exercise no.1: Introduction to PaaS
- 3. Exercise no.2: Docker
- 4. Exercise no.3: Kubernetes
- 5. Exercice no 4: OpenShift
- 6. Final level
- 7. Others
-    1. Work methodology
-    2. Documentation and exhibitions
-    3. Mark
-    4. Evaluation criteria evaluated
-    5. Bibliography
- 
-
-
-
-
 ### Exercise no. 2: Docker
 &nbsp;&nbsp;&nbsp;After learning what is the scope of PaaS,  now it is time to start the study of the first level: the **containers**.  Docker is the most used solution nowaday.  We are going to structure the learning of Docker in the next sections:
    1. Docker installation: virtual machine managed by Vagrant.
@@ -244,3 +202,42 @@
 &nbsp;&nbsp;&nbsp;Now, check the installation process is working (use 'links' and connect to the URL "http://IP_servidor_wp"). The IP of the servidor_wp can get by "$docker logs servidor_wp".  
 <br><br>
 
+
+---
+# Introduction to PaaS: develop, deploy, run and manage apps on the Cloud  
+
+
+
+#### Disclaimer
+&nbsp;&nbsp;&nbsp;  *"The European Commission support for the production of this publication does not constitute an endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein."*
+
+
+
+
+#### Author
+
+&nbsp;&nbsp;&nbsp;  This material has been produced by José Luis Rodríguez Rodríguez under the Creative Commons licence:  <img src="/img/Licencia-Tipo2.png" height="25" width="75">  
+
+
+
+
+### Objective
+&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the microservices based application development approach (vs monolithic applications), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
+
+&nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
+<br>
+<br> 
+
+### Index
+ 1. Initial level
+ 2. Exercise no.1: Introduction to PaaS
+ 3. Exercise no.2: Docker
+ 4. Exercise no.3: Kubernetes
+ 5. Exercice no 4: OpenShift
+ 6. Final level
+ 7. Others
+    1. Work methodology
+    2. Documentation and exhibitions
+    3. Mark
+    4. Evaluation criteria evaluated
+    5. Bibliography
