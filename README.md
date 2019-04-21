@@ -41,14 +41,15 @@
  -  Final level
  -  Others
     * Work methodology
-    * Documentation and exhibitions
+    * Documentation and meeting presentations
     * Mark && Evaluation criteria evaluated
     * Bibliography
  
 
 
 ###  Initial Level
-&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLSdlYr6VB7r5667owEp6ux3v7762ZBXslI_jGOuB4zoLbnCRBg/viewform) to asses your initial level.  
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie: professional competence](https://docs.google.com/forms/d/e/1FAIpQLSdlYr6VB7r5667owEp6ux3v7762ZBXslI_jGOuB4zoLbnCRBg/viewform) to asses your initial level on the **professional competence** (PaaS). 
+    Besides, do this other [questionnarie: digital competence](https://docs.google.com/forms/d/e/1FAIpQLSeK6Rg6fC6ZNVeR05qtfVloTwQ_VKZvLSfZISwq4dUdD96slQ/viewform) for evaluation of the **digital competence** (Social Networks) 
 <br><br>
 
 ### Exercise no. 1: Introduction to PaaS
@@ -68,7 +69,9 @@
 <br/><br/>
 
 ###  Final Level
-&nbsp;&nbsp;&nbsp;  Do this [questionnarie](https://docs.google.com/forms/d/e/1FAIpQLScqCXOWScrue9vgyYyaETbN1l7jxj6AVFmqfERscuElcz6ZoA/viewform) to asses your initial level.  
+&nbsp;&nbsp;&nbsp;  Do this [questionnarie: professional competence](https://docs.google.com/forms/d/e/1FAIpQLScqCXOWScrue9vgyYyaETbN1l7jxj6AVFmqfERscuElcz6ZoA/viewform) to asses your final level on the **professional competence** (PaaS). 
+    Besides, do this other [questionnarie: digital competence](https://docs.google.com/forms/d/e/1FAIpQLSfGol0Ljr_slYc3Ayis3PijobKe31ZEInjO1ZOB0b2E0q5Cbg/viewform) for evaluation of the **digital competence** (Social Networks) 
+<br><br>
 
 <br/><br/>
 
@@ -82,14 +85,17 @@
  3. The practices must be documentated.
 
 <br/><br/>
-### Documentation and meeting exhibition
+### Documentation and meeting presentations
  1. Only delivery for each group.
  2. **Documentation special parts**: the documentation must include the **Erasmus+ project name and number, Erasmus+ logo, IES Ramón del Valle Inclán Logo, the disclaimer**. You can find an example in this document (see above).  Other parts are: index, introduction, conclusion.
- 3. The documentation must be given in **GitHub**; each group must upload their documentation to GitHub. One component from each group must use his/her GitHub account and add the others components as **collaborators**.
+ 3. The documentation must be given in **GitHub**; each group must upload their documentation to GitHub. One component from each group must use his/her GitHub account and add the others components as **collaborators**.4
+ 4. The tweet must include a **mention** to the ICT Departament Twitter account.  **@inform_iesvi**
+ 5. The tweet will be cathegorized under the hashtag **#cloudcomputingineuropeanschools**
  4. All groups must add the teacher as another collaborator.
  5. Documentation content for each group: PENDING.
  6. After finishing the documentation, each component must **fork** into his/her Github account and publish a tweet which contain a link to this documentation.
- 7. All student has to follow the **Twitter account** from the rest of class mates and retweet a tweet from, at least, one class mate.
+ 7. All students have to follow the **Twitter account** from the rest of class mates and retweet a tweet from, at least, one class mate.
+ 8. All students have to follow the **ICT Departament Twitter account**: **@inform_iesvi**
  8. Some students must submit the documentation **in English**.
  9. Students who do the documentation in English must prepare a **1-hour workshop** to teach the rest of the students from the other participating schools. The objective of the workshop is that attendees learn the most theoretical aspects of Developing on the Cloud and doing the practices. The generated documentation must be oriented for this workshop. Suggestion: use tools such as Google Form to gather information or Kahoot to prepare interactive questions. The creativity of the presented workshop will be valued.
 
