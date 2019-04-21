@@ -131,9 +131,11 @@
     ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"] </pre>
     
  &nbsp;&nbsp;&nbsp;  2.2.- **Create the Docker image**
-   > $ docker build -t jlr2/aplicacionesweb:v1 .  <br/>
-   > $ docker image ls  --> list the docker images created  
-   <br/><br/>
+   > $ docker build -t jlr2/aplicacionesweb:v1 . 
+   
+   > $ docker image ls  --> list the docker images created
+   
+   <br/>
   3. **Create/Run a container in the development environment**.
    > $ docker run --name aplweb -d -p 80:80   jlr2/aplicacionesweb:v1
    <br/>
