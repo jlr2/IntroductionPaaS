@@ -26,7 +26,7 @@
 
 
 ### Objective
-&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the **microservices based application** development approach (vs **monolithic applications**), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernates and OpenShift in order to develop, deploy, run and manage  microservices based applications.
+&nbsp;&nbsp;&nbsp; Platform as a Service (PaaS), is a cloud computing model that allows the users to develop, deploy, run and manage applications without taking care about the underlying layers. The alternatives used today focus on the use of containers which promote the **microservices based application** development approach (vs **monolithic applications**), because the different services into which we the application is separated can easily run in different containers. We will make a study of Docker, Kubernetes and OpenShift in order to develop, deploy, run and manage  microservices based applications.
 
 &nbsp;&nbsp;&nbsp;This activity has been developed for developing the professional competence includes in the Erasmus+ project "Cloud Computing in European Schools".
 <br>
@@ -125,6 +125,8 @@
  9. [dockerhub](https://hub.docker.com/)
  10. [Ejercicios con Docker](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/ejercicios_docker.md)
  11. [Uso de volúmenes persistentes](https://iesgn.github.io/cloudandrelated/es_docker.html#/10)
+ 12. [¿Qué nos aporta Kubernetes en el despliegue de aplicaciones?](https://iesgn.github.io/cloudandrelated/es_kubernetes.html#/)
+ 13. [Kubernetes - English version](https://iesgn.github.io/cloudandrelated/kubernetes.html#/).
 
 
 
