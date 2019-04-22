@@ -51,7 +51,7 @@
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        chmod +x minikube && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        sudo cp minikube /usr/local/bin/ && \
 >   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;       rm minikube
-<br/>
+  
 2. Download kubectl:
 > $ curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        chmod +x kubectl && \
