@@ -23,15 +23,15 @@
 <br/><br/>
 ####  Section 2.- Resources  
 &nbsp;&nbsp;&nbsp; Read the [documentation](https://iesgn.github.io/cloudandrelated/es_kubernetes.html#/2).  
-    As you have read the next figure shows the different parts:  
+&nbsp;&nbsp;&nbsp; As you have read the next figure shows the different parts:  
     <img src="/img/kubernetes1.png" height="300" width="600">  
-    The resources are:<br/>
-  -  Initial level
-  -  Pods
-     -   ReplicaSet
-     -   Deployment
-     -   Service
-     -   Ingress
+&nbsp;&nbsp;&nbsp;The resources are:<br/>
+   -  Initial leve
+   -  Pods
+   -  ReplicaSet
+   -  Deployment
+   -  Service
+   -  Ingress
 <br/><br/>
 ####  Section 3.- minikube
 <br/><br/>
