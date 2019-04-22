@@ -59,10 +59,10 @@
 <br/><br/>
 
 ### Exercise no. 2: Docker
-&nbsp;&nbsp;&nbsp;   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/docker.md) to do this exercice.
+&nbsp;&nbsp;&nbsp;   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/docker.md) to do this exercise.
 <br/><br/>
 ### Exercise no. 3: Kubernetes
-
+&nbsp;&nbsp;&nbsp;   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/kubernetes.md) to do this exercise.
 <br/><br/>
 
 ### Exercise no. 4: OpenShift
