@@ -61,8 +61,8 @@
 3. Start the virtual machine with minikube (this step start the installation of the cluster).
 > $ minikube start --vm-driver=virtualbox
   
-&nbsp;&nbsp;&nbsp; Finally, we are going to check the installation and add the component *ingress*:
-> $ kubectl get nodes  --> We can check the number of nodes of the cluster.
+&nbsp;&nbsp;&nbsp; <br/>Finally, we are going to check the installation and add the component *ingress*:
+> $ kubectl get nodes  --> We can check the number of nodes of the cluster.  
 > $ minikube addons enable ingress  -> add the component ingress
 
 <br/><br/>
