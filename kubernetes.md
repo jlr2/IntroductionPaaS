@@ -26,7 +26,8 @@
     As you have read the next figure shows the different parts:  
     <img src="/img/kubernetes1.png" height="300" width="600">  
     The resources are:<br/>
-     -   Pods
+  -  Initial level
+  -  Pods
      -   ReplicaSet
      -   Deployment
      -   Service
