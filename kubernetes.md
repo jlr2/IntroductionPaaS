@@ -45,12 +45,25 @@
 -  [minikube: Jugando con kubernetes](https://github.com/iesgn/cloudandrelated/blob/master/paas/doc/minikube.md)
 -  [Kubernetes (Minukube y Kubectl) y Clusters](https://dockertips.com/kubernetes)
 
-&nbsp;&nbsp;&nbsp;The summary of the steps is:
-1. Download minikube
+&nbsp;&nbsp;&nbsp;**Summary of the steps**:
+1. Download minikube_
 > $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.30.0/minikube-linux-amd64 && \
->  &nbsp;&nbsp;&nbsp;        chmod +x minikube && \
->   &nbsp;&nbsp;&nbsp;       sudo cp minikube /usr/local/bin/ && \
->  &nbsp;&nbsp;&nbsp;         rm minikube
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        chmod +x minikube && \
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        sudo cp minikube /usr/local/bin/ && \
+>   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;       rm minikube
+<br/>
+2. Download kubectl:
+> curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl && \
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        chmod +x kubectl && \
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        sudo cp kubectl /usr/local/bin/ && \
+>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        rm kubectl
+<br/>
+3. Start the virtual machine with minikube (this step start the installation of the cluster).
+> $ minikube start --vm-driver=virtualbox
+
+&nbsp;&nbsp;&nbsp; Finally, we are going to check the installation and add the component *ingress*:
+> $ kubectl get nodes  --> We can check the number of nodes of the cluster.
+> $ minikube addons enable ingress  -> add the component ingress
 
 <br/><br/>
 ####  Section 4.- Practices
