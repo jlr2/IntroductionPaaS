@@ -9,7 +9,7 @@
 
 
 ### Exercise no. 3: Kubernetes
-&nbsp;&nbsp;&nbsp;The next level of our study of Paas is Kubernetes (K8S), an application container orchrestator . The study of K8S will be divides in the next sections:
+&nbsp;&nbsp;&nbsp;The next level of our study of Paas is Kubernetes (K8S), an **application container orchrestator** . The study of K8S will be divided in the next sections:
    1. Definition
    2. Resources
    3. minikube
@@ -24,7 +24,7 @@
 ####  Section 2.- Resources  
 &nbsp;&nbsp;&nbsp; Read the [documentation](https://iesgn.github.io/cloudandrelated/es_kubernetes.html#/2).
     As you have read the next figure shows the different parts:  
-    <img src="/img/kubernetes1.png" height="100" width="200">  
+    <img src="/img/kubernetes1.png" height="300" width="600">  
     The resources are:
     - Pods
     - ReplicaSet
