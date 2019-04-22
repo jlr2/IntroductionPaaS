@@ -25,7 +25,7 @@
 &nbsp;&nbsp;&nbsp; Read the [documentation](https://iesgn.github.io/cloudandrelated/es_kubernetes.html#/2).  
     As you have read the next figure shows the different parts:  
     <img src="/img/kubernetes1.png" height="300" width="600">  
-    The resources are:
+    The resources are:<br/>
      -   Pods
      -   ReplicaSet
      -   Deployment
