@@ -46,14 +46,14 @@
 -  [Kubernetes (Minukube y Kubectl) y Clusters](https://dockertips.com/kubernetes)
 
 &nbsp;&nbsp;&nbsp;**Summary of the steps**:
-1. Download minikube_
+1. Download minikube:
 > $ curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.30.0/minikube-linux-amd64 && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        chmod +x minikube && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        sudo cp minikube /usr/local/bin/ && \
 >   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;       rm minikube
 <br/>
 2. Download kubectl:
-> curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl && \
+> $ curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        chmod +x kubectl && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        sudo cp kubectl /usr/local/bin/ && \
 >   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        rm kubectl
