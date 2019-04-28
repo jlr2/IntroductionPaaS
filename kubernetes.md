@@ -35,7 +35,11 @@
 ####  Section 3.- minikube
 &nbsp;&nbsp;&nbsp; The concept of **Kubernetes** is to assemble a **cluster** where they can run containers, there is a "Manager" node that can send tasks / containers to other "Workers" nodes to execute them. Each node is a virtual or physical team where **Containers / PODs** will run.<br/><br/>
 
-&nbsp;&nbsp;&nbsp; Then we will see that a **POD** is a group of "IP", one or more APPs and one or more volumes, represents a unit that can perform a task / service. <br/><br/>
+&nbsp;&nbsp;&nbsp; Then we will see that a **POD** is a group of:  
+- an "IP" address,  
+- one or more APPs and  
+- one or more volumes  
+- A pod represents a unit that can perform a task / service. <br/><br/>
 
 &nbsp;&nbsp;&nbsp; We will use **Minikube**, a **lightweight implementation of Kubernetes** that uses a virtualized computer running on my real computer and that creates **a cluster of a single node**. It's simple and uses a virtual environment to mount (MiniKube). <br/><br/>
 
@@ -67,6 +71,32 @@
 
 <br/><br/>
 ####  Section 4.- Practices
+&nbsp;&nbsp;&nbsp;  We will do these practices:  
+1. Fault tolerance
+2. Scalability
+3. Load Balancing
+4. Continuous updates
+5. Rollback
+6. Routing
+7. Persistent volumes
+<br/><br/>
+
+#####  Practice 1.- Fault tolerance
+<br/><br/>
+#####  Practice 2.- Scalability
+<br/><br/>
+#####  Practice 3.- Load Balancing
+<br/><br/>
+#####  Practice 4.- Continuous updates
+<br/><br/>
+#####  Practice 5.- Rollback
+<br/><br/>
+#####  Practice 6.- Routing
+<br/><br/>
+#####  Practice 7.- Persistent volumes
+<br/><br/>
+
+
 <br/><br/>
 
 

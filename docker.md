@@ -203,7 +203,7 @@
 
 &nbsp;&nbsp;&nbsp;Now, check the installation process is working:  
 - We can use 'links' and connect to the URL "http://IP_servidor_wp" from the same virtual machine with docker (The IP of the servidor_wp can get by "$docker logs servidor_wp").  
-- Or from the host computer by using the virtual machine IP address:8080
+- Or,from the host computer, by using the virtual machine IP address:8080 in the web browser.
 <br><br>
 
 
