@@ -115,13 +115,13 @@
    
 <br/><br/><br/>
    6.- **Modify the application** In case we modify the application it is necessary to build a new image:
-   >  echo "&lt;h1&gt;Prueba2&lt;/h1&gt;" > index.htm   -->  modify the application  
+   push   -->  modify the application  
    
    >  docker build -t josedom24/aplicacionweb:v2  -->  create the new image (in the development environment)  
    
-   >  docker push jlr2/aplicacionesweb :v2  --> upload the new image  
+   >  docker push jlr2/aplicacionesweb:v2  --> upload the new image  
    
-   >  docker pull  jlr2/aplicacionesweb :v2  --> (download the new image to the production environment)  
+   >  docker pull  jlr2/aplicacionesweb:v2  --> (download the new image to the production environment)  
    
    >  docker container rm -f aplweb  -->  delete the current container  (in the production environment)  
    
