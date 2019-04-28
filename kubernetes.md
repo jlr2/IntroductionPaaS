@@ -83,25 +83,31 @@
 
 #####  Practice 1.- Fault tolerance
 1. Create a pod:
-    > kubectl run pagweb --image jlr2/aplicacionesweb:v1  
+    > $kubectl run pagweb --image jlr2/aplicacionesweb:v1  
     
 2. In case the pod stops working, K8S create another one:  
 2.1. We will delete the pod:
-    > kubectl delete pod/pagweb-bb599dd-pxs2d  
+    > $ kubectl delete pod/pagweb-bb599dd-pxs2d  
     
 &nbsp;&nbsp;&nbsp;2.2. We can check a new pod has been created
-    > kubectl get pod  
+    > $ kubectl get pod  
     
 
 3. We can also check the resource *Deployment*:
-    > kubectl get deploy  
+    > $ kubectl get deploy  
 4. And the resource *ReplicaSet*:
-    > kubectl get rs  
+    > $ kubectl get rs  
     
 <br/><br/>
 
 #####  Practice 2.- Scalability
+1. ReplicateSet may replicate the pods:
+    > $ kubectl scale deploy pagweb --replicas=3  
+2. Check (each pod is running in a different node):
+    > $ kubectl get pod -o wide
+
 <br/><br/>
+
 #####  Practice 3.- Load Balancing
 <br/><br/>
 #####  Practice 4.- Continuous updates
