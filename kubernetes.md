@@ -89,7 +89,7 @@
 2.1. We will delete the pod:
     > kubectl delete pod/pagweb-bb599dd-pxs2d  
     
-2.2. We can check a new pod has been created
+&nbsp;&nbsp;&nbsp;2.2. We can check a new pod has been created
     > kubectl get pod  
     
 
@@ -97,6 +97,7 @@
     > kubectl get deploy  
 4. And the resource *ReplicaSet*:
     > kubectl get rs  
+    
 <br/><br/>
 
 #####  Practice 2.- Scalability
