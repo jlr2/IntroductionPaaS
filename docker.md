@@ -57,7 +57,7 @@
 #### Section 2.- Docker applications lifecycle
 &nbsp;&nbsp;&nbsp;After installing an environment with Docker, we are going to develop Docker images and deploy containers to run our applications. The documentation to read is [Lifecycle of Docker based applications - Spanish version](https://iesgn.github.io/cloudandrelated/es_docker.html#/). 
 <br/><br/>
-&nbsp;&nbsp;&nbsp;The reading must have taught you (it is showed a summary:
+&nbsp;&nbsp;&nbsp;The reading must have taught you (it is showed a summary):
    1. **Create the application**. We are going to create a web page *index.html* that will be served by a web server that will run in a Docker container. The web page  and it will be saved in */home/vagrant/public_html/*: <br/>
    > $ mkdir public_html <br/>
    > $ cd public_html<br/>
@@ -201,7 +201,9 @@
 > $ docker run --name servidor_wp -p 8000:80 --link servidor_mariadb:mariadb -d wordpress
 
 
-&nbsp;&nbsp;&nbsp;Now, check the installation process is working (use 'links' and connect to the URL "http://IP_servidor_wp"). The IP of the servidor_wp can get by "$docker logs servidor_wp".  
+&nbsp;&nbsp;&nbsp;Now, check the installation process is working:  
+- We can use 'links' and connect to the URL "http://IP_servidor_wp" from the same virtual machine with docker (The IP of the servidor_wp can get by "$docker logs servidor_wp").  
+- Or from the host computer by using the virtual machine IP address:8080
 <br><br>
 
 
