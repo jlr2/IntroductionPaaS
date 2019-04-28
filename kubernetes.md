@@ -129,8 +129,20 @@
 
 <br/><br/>
 #####  Practice 5.- Rollback
+1. In case we need to go back to a previous version:
+    > $ kubectl rollout undo deployment/pagweb  
+
 <br/><br/>
 #####  Practice 6.- Routing
+1. It is possible to access to the app by a DNS name. We will use nip.io domain. It is necessary to create a file ingress.yaml.
+2. Create the resource ingress:
+    > $ kubectl create -f ingress.yaml  
+3. Check:
+    > $ kubectl get ingress  
+    > Accedemos desde el navegador con http://pagweb.192.168.99.100.nip.io/
+
+
+
 <br/><br/>
 #####  Practice 7.- Persistent volumes
 <br/><br/>
