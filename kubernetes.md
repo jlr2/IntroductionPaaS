@@ -109,6 +109,15 @@
 <br/><br/>
 
 #####  Practice 3.- Load Balancing
+1. Create a resource Service to access to the app:
+    > $ kubectl expose deployment pagweb --port=80 --type=NodePort
+2. Get the port of the application:
+    > $ kubectl get services
+3. Get the IP addresses of the cluster where the app is running:
+    > $ minikube ip → Aparece 192.168.99.100
+4. Check the access is OK by the local web browser: 
+    > http://ip:puerto → Example: 192.168.99.100:32245.
+
 <br/><br/>
 #####  Practice 4.- Continuous updates
 <br/><br/>
