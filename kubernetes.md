@@ -87,7 +87,6 @@
 2. In case the pod stops working, K8S create another one:  
 2.1. We will delete the pod:  
     > kubectl delete pod/pagweb-bb599dd-pxs2d  
-    
 2.2. We can check a new pod has been created.  
     > kubectl get pod  
 
