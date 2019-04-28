@@ -121,11 +121,11 @@
 <br/><br/>
 #####  Practice 4.- Continuous updates
 1. Modify the app (we create a  new image + upload to dockerhub)
-> $ echo "&lt;h1&gt;Prueba2&lt;/h1&gt;" > index.htm  
-> $ docker build -t jlr2/aplicacionweb:v2
-> $ docker push  jlr2/aplicacionesweb :v2
+    > $ echo "&lt;h1&gt;Prueba2&lt;/h1&gt;" > index.htm  
+    > $ docker build -t jlr2/aplicacionweb:v2  
+    > $ docker push  jlr2/aplicacionesweb :v2
 2. After modifying the app, the updating process in the deployment is very easy:
-> $ kubectl set image deployment pagweb pagweb=jlr2/aplicacionesweb:v2
+> $ kubectl set image deployment pagweb pagweb=jlr2/aplicacionesweb:v2  
 
 <br/><br/>
 #####  Practice 5.- Rollback
