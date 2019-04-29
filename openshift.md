@@ -35,16 +35,7 @@
     > $ minishift start --vm-driver = virtualbox
     
 The process takes a while. We must wait for the message to appear:  
-    <pre>OpenShift server started.
-    The server is accessible via web console at:
-        https://192.168.99.128:8443
-
-    You are logged in as:
-        User: developer
-        Password: developer
-
-    To login as administrator:
-        oc login -u system: admin </pre>  
+   
     
 5. If it failed to start, we can stop and restart:  
     > $ minishift stop  
