@@ -56,7 +56,7 @@ The process takes a while. We must wait for the message to appear:
 1. Openshift simplifies the life cycle of our applications offered by **Docker**. It is very simple.
 2. Openshift offers us all the advantages of **Kubernetes** (error tolerance, dynamic scalability, continuous updates, automatic deployments, routing to the applications, load balancing, persistent volumes).
 3. Openshift gives us **more**: projects&users management, set of base images, volume management, integrated IC/CD flows, etc
-<br/>
+<br/><br/>
 &nbsp;&nbsp;&nbsp;  And you should not never forget that **you are a developer** and Openshift is the *tool* to create Docker images, manage them by Kubernetes and so on.  **You must only think to develop the application** by using *GIT* (or a similar control version system), synchronize to a remote repository (GitHub for example). Openshift will do the rest (pull the source code to inject to a base docker image in order to create the docker image).
 
 
