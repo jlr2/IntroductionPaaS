@@ -40,7 +40,7 @@ The process takes a while. We must wait for the message to appear:
 5. If it failed to start, we can stop and restart:  
     > $ minishift stop  
     > $ minishift start --vm-driver = virtualbox  
-<br/><br/>
+
 ####  Section 3.- Characteristics
 &nbsp;&nbsp;&nbsp; Read this [documentation](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/1/2).
 <br/> 
