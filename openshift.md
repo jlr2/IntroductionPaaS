@@ -9,7 +9,7 @@
 
 
 ### Exercise no. 4: Openshift ... or minishift
-&nbsp;&nbsp;&nbsp; Minishift is an application that can be used to deploy "easily" a openshift cluster on one node . This exercise is structured in the sections:
+&nbsp;&nbsp;&nbsp; Minishift is an application that can be used to deploy "easily" **a openshift cluster on one node** . This exercise is structured in the sections:
    1. Definition
    2. Installation
    3. Characteristics
@@ -28,7 +28,7 @@
 &nbsp;&nbsp;&nbsp; Read the [Minishift: Playing around with OpenShift v3](https://github.com/iesgn/cloudandrelated/blob/master/minishift.md).
 
 &nbsp;&nbsp;&nbsp; The steps are:  
-1. Go to [github minishift](https://github.com/minishift/minishift/releases)7
+1. Go to [github minishift](https://github.com/minishift/minishift/releases)
 2. Download the latest version for the desired operating system.
 3. Decompress. A folder with the name of minishift is created.
 4. We only need to launch minishift (minishift start) indicating that we want to execute the MV in VirtualBox (--vm-driver = virtualbox).
@@ -45,7 +45,7 @@ The process takes a while. We must wait for the message to appear:
 
     To login as administrator:
         oc login -u system: admin </pre>
-5. If it failed to start, we can stop and restart:
+5. If it failed to start, we can stop and restart:  
     > $ minishift stop
     > $ minishift start --vm-driver = virtualbox
 <br/><br/>
@@ -54,10 +54,10 @@ The process takes a while. We must wait for the message to appear:
 <br/> 
 &nbsp;&nbsp;&nbsp; It is important that you realize that:
 1. Openshift simplifies the life cycle of our applications offered by **Docker**. It is very simple.
-2. Openshift offers us all the advantages of **Kubernetes** (error tolerance, dynamic scalability, continuous updates, automatic deployments, routing to the applications, load balancing, persistent volumes)
-3.- Openshift gives us **more**: projects&users management, set of base images, volume management, integrated IC/CD flows, etc
+2. Openshift offers us all the advantages of **Kubernetes** (error tolerance, dynamic scalability, continuous updates, automatic deployments, routing to the applications, load balancing, persistent volumes).
+3. Openshift gives us **more**: projects&users management, set of base images, volume management, integrated IC/CD flows, etc
 <br/>
-&nbsp;&nbsp;&nbsp;  And you should not never forget that you a developer and Openshift is the *tool* to create Docker images, manage them by Kubernetes and so on.  **You must only think to develop the application** by using *GIT* (or a similar control version system), synchronize to a remote repository (GitHub for example). Openshift will do the rest (pull the source code to inject to a base docker image in order to create the docker image).
+&nbsp;&nbsp;&nbsp;  And you should not never forget that **you are a developer** and Openshift is the *tool* to create Docker images, manage them by Kubernetes and so on.  **You must only think to develop the application** by using *GIT* (or a similar control version system), synchronize to a remote repository (GitHub for example). Openshift will do the rest (pull the source code to inject to a base docker image in order to create the docker image).
 
 
 <br/><br/>
