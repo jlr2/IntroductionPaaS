@@ -46,7 +46,7 @@ The process takes a while. We must wait for the message to appear:
     To login as administrator:
         oc login -u system: admin </pre>
 5. If it failed to start, we can stop and restart:  
-    > $ minishift stop
+    > $ minishift stop  
     > $ minishift start --vm-driver = virtualbox
 <br/><br/>
 ####  Section 3.- Characteristics
