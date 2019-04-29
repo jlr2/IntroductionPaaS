@@ -103,7 +103,7 @@
    > docker push jlr2/aplicacionesweb :v1  --> Upload the image  
    
    We can check it by 2 ways:
-   > docker search jlr2/aplicacioneseweb  
+   > docker search jlr2/aplicacionesweb  
    
    > Look for in our Docker account (dockerhub).  
    
@@ -117,7 +117,7 @@
    6.- **Modify the application** In case we modify the application it is necessary to build a new image:
    push   -->  modify the application  
    
-   >  docker build -t josedom24/aplicacionweb:v2  -->  create the new image (in the development environment)  
+   >  docker build -t jlr2/aplicacionweb:v2  -->  create the new image (in the development environment)  
    
    >  docker push jlr2/aplicacionesweb:v2  --> upload the new image  
    

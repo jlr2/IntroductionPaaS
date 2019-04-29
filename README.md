@@ -127,6 +127,9 @@
  11. [Uso de volúmenes persistentes](https://iesgn.github.io/cloudandrelated/es_docker.html#/10)
  12. [¿Qué nos aporta Kubernetes en el despliegue de aplicaciones?](https://iesgn.github.io/cloudandrelated/es_kubernetes.html#/)
  13. [Kubernetes - English version](https://iesgn.github.io/cloudandrelated/kubernetes.html#/).
+ 14. [Deploying applications on Openshift](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/)
+ 15. [Introducción a Openshift. Aplicaciones orientadas a microservicios](https://iesgn.github.io/cloudandrelated/es_openshift.html#/)
+ 16. [https://github.com/iesgn/cloudandrelated/blob/master/minishift.md](https://github.com/iesgn/cloudandrelated/blob/master/minishift.md)
 
 
 
