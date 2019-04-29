@@ -66,7 +66,7 @@
 <br/><br/>
 
 ### Exercise no. 4: OpenShift
-
+&nbsp;&nbsp;&nbsp;   Click [here](https://github.com/jlr2/IntroductionPaaS/blob/master/openshift.md) to do this exercise.
 <br/><br/>
 
 ###  Final Level
@@ -129,7 +129,7 @@
  13. [Kubernetes - English version](https://iesgn.github.io/cloudandrelated/kubernetes.html#/).
  14. [Deploying applications on Openshift](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/)
  15. [Introducción a Openshift. Aplicaciones orientadas a microservicios](https://iesgn.github.io/cloudandrelated/es_openshift.html#/)
- 16. [https://github.com/iesgn/cloudandrelated/blob/master/minishift.md](https://github.com/iesgn/cloudandrelated/blob/master/minishift.md)
+ 16. [Minishift: Playing around with OpenShift v3](https://github.com/iesgn/cloudandrelated/blob/master/minishift.md)
 
 
 
