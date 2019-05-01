@@ -14,7 +14,8 @@
    2. Installation
    3. Characteristics
    4. Resouces
-   5. Practices
+   5. Versions
+   6. Practices
    
 &nbsp;&nbsp;&nbsp;The sections will be explained by following a English documentation [Deploying applications on Openshift](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/), but you can also read an Spanish version: [Introducción a Openshift. Aplicaciones orientadas a microservicios](https://iesgn.github.io/cloudandrelated/es_openshift.html#/)
 
@@ -33,7 +34,7 @@
 2. Download the latest version for the desired operating system.
 3. Decompress. A folder with the name of minishift is created.
 4. We only need to launch minishift (minishift start) indicating that we want to execute the MV in VirtualBox (--vm-driver = virtualbox).
-    > $ minishift start --vm-driver = virtualbox
+    > $ minishift start --vm-driver=virtualbox
     
 The process takes a while. We must wait for the message to appear:  
  <pre>OpenShift server started.
@@ -74,10 +75,21 @@ The process takes a while. We must wait for the message to appear:
 - cli oc
 
 
+####  Section 5.- Versions
+&nbsp;&nbsp;&nbsp;  Openshift can be used by differents ways:  
+1. OKD
+2. Online
+3. Dedicated
+4. Container Platform
+
+You get details about it in [Soluciones disponibles de Openshift](https://iesgn.github.io/cloudandrelated/es_openshift.html#/3)
+
+<br/><br/>
+
 
 ####  Section 5.- Practices
 &nbsp;&nbsp;&nbsp;  We will do these practices:  
-1. 
+1. Static web application
 2. 
 3. 
 4. 
@@ -85,8 +97,8 @@ The process takes a while. We must wait for the message to appear:
 
 <br/><br/>
 
-#####  Practice 1.- 
-
+#####  Practice 1.- Static web application
+Read the documentation [Creating the first application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/3). You will deploy a static web application on OpenShift.
     
 <br/><br/>
 
