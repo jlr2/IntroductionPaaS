@@ -114,7 +114,11 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 #####  Practice 2.- Updating and Rolling back the application
 &nbsp;&nbsp;&nbsp;  Read the documentation [Updating and rolling back the application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/4).  The documentation shows how Openshift deploys an update and how to roll back.
 
+&nbsp;&nbsp;&nbsp; A summary is:
+- **Updating**: After you modify the application, you only has to choose your application (Overview) and select "Start Build".  Openshift will deploy automatically the new version.  In Deployments we can see all the versions of the application
+- **Rollback**:  It is so easy as to choose a previous deployment and click "Roll back".
 <br/><br/>
+
 
 #####  Practice 3.- Deploying a PHP application
 &nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice deploys a CMS (CMSPHP)
