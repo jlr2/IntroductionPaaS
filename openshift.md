@@ -90,31 +90,31 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 ####  Section 5.- Practices
 &nbsp;&nbsp;&nbsp;  We will do these practices:  
 1. Static web application
-2. 
-3. 
-4. 
+2. Updating and Rolling back the application
+3. Deploying a PHP application
+4. Deploying a PHP application with persistent volumes
 
 
 <br/><br/>
 
 #####  Practice 1.- Static web application
-Read the documentation [Creating the first application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/3). You will deploy a static web application on OpenShift.
+&nbsp;&nbsp;&nbsp; Read the documentation [Creating the first application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/3). You will deploy a static web application on OpenShift.
     
 <br/><br/>
 
-#####  Practice 2.- 
-
-
-<br/><br/>
-
-#####  Practice 3.-
-
-<br/><br/>
-#####  Practice 4.- 
+#####  Practice 2.- Updating and Rolling back the application
+&nbsp;&nbsp;&nbsp;  Read the documentation [Updating and rolling back the application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/4).  The documentation shows how Openshift deploys an update and how to roll back.
 
 <br/><br/>
 
+#####  Practice 3.- Deploying a PHP application
+&nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice deploys a CMS (CMSPHP)
+<br/><br/>
 
+#####  Practice 4.- Deploying a PHP application with persistent volumes
+
+<br/><br/>
+&nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice continues the previous practice but using an external storage (volume) for the database.
 
 ---
 This exercise  is part of the activity **Introduction to PaaS: develop, deploy, run and manage apps on the Cloud**
