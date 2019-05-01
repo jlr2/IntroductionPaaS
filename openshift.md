@@ -98,7 +98,16 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 <br/><br/>
 
 #####  Practice 1.- Static web application
-&nbsp;&nbsp;&nbsp; Read the documentation [Creating the first application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/3). You will deploy a static web application on OpenShift.
+&nbsp;&nbsp;&nbsp; Read the documentation [Creating the first application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/3). You will deploy a static web application on OpenShift. The documentation includes a video-tutorial explaining the steps.
+
+&nbsp;&nbsp;&nbsp; A summary is:
+1. Create a project
+2. Create an application: choose a catalog image +  write the GIT Repository URL (where the source code is).
+
+&nbsp;&nbsp;&nbsp;After these steps:
+1. Openshift will create a docker image (Use Docker)
+2. Openshift will create a pod, a service and a route (Use K8S). So, Openshift has deployed the application.
+3. The application can be accessed
     
 <br/><br/>
 
@@ -112,10 +121,8 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 <br/><br/>
 
 #####  Practice 4.- Deploying a PHP application with persistent volumes
-
-<br/><br/>
 &nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice continues the previous practice but using an external storage (volume) for the database.
-
+<br/><br/>
 ---
 This exercise  is part of the activity **Introduction to PaaS: develop, deploy, run and manage apps on the Cloud**
 
