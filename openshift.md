@@ -9,11 +9,12 @@
 
 
 ### Exercise no. 4: Openshift ... or minishift
-&nbsp;&nbsp;&nbsp; Minishift is an application that can be used to deploy "easily" **a openshift cluster on one node** . This exercise is structured in the sections:
+&nbsp;&nbsp;&nbsp; Minishift is an application that can be used to deploy "easily" **a Openshift cluster on one node** . This exercise is structured in the sections:
    1. Definition
    2. Installation
    3. Characteristics
-   4. Practices
+   4. Resouces
+   5. Practices
    
 &nbsp;&nbsp;&nbsp;The sections will be explained by following a English documentation [Deploying applications on Openshift](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/), but you can also read an Spanish version: [Introducción a Openshift. Aplicaciones orientadas a microservicios](https://iesgn.github.io/cloudandrelated/es_openshift.html#/)
 
@@ -61,7 +62,20 @@ The process takes a while. We must wait for the message to appear:
 
 
 <br/><br/>
-####  Section 4.- Practices
+####  Section 4.- Resources
+&nbsp;&nbsp;&nbsp; Openshift uses these resources (more details in [Openshift resources](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/2) ):
+- Projects
+- Applications
+- Builds
+- Image registry
+- Routes
+- Service catalog
+- Web console
+- cli oc
+
+
+
+####  Section 5.- Practices
 &nbsp;&nbsp;&nbsp;  We will do these practices:  
 1. 
 2. 
