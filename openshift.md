@@ -114,7 +114,7 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 #####  Practice 2.- Updating and Rolling back the application
 &nbsp;&nbsp;&nbsp;  Read the documentation [Updating and rolling back the application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/4).  The documentation shows how Openshift deploys an update and how to roll back.
 
-&nbsp;&nbsp;&nbsp; A summary is:
+&nbsp;&nbsp;&nbsp; A **summary** is:
 - **Updating**: After you modify the application, you only has to choose your application (Overview) and select "Start Build".  Openshift will deploy automatically the new version.  In Deployments we can see all the versions of the application
 - **Rollback**:  It is so easy as to choose a previous deployment and click "Roll back".
 <br/><br/>
@@ -124,8 +124,18 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 &nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice deploys a CMS (CMSPHP)
 <br/><br/>
 
+&nbsp;&nbsp;&nbsp; A **summary** is:
+1. Choose "PHP" from OpenShift image catalog.
+2. Configure "https://github.com/ilosuna/phpsqlitecms.git" as the source code
+3. The image is created and the other K8S resources: pod, services, route. We can check that the app is running by its DNS name.
+4. Try to make some change in the source code and create a new version of the docker image (*Start build*). It is interesting to realize how the old pod is deleted and a new pod is created.  Connect again and check the changes was made.
+5. In case we scale our application, we can realize that no all pods contains the same content. So it is necessary **persistent volumes**.
+&nbsp;&nbsp;&nbsp; 
+
+
 #####  Practice 4.- Deploying a PHP application with persistent volumes
 &nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice continues the previous practice but using an external storage (volume) for the database.
+
 <br/><br/>
 ---
 This exercise  is part of the activity **Introduction to PaaS: develop, deploy, run and manage apps on the Cloud**
