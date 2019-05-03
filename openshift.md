@@ -134,7 +134,16 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 
 
 #####  Practice 4.- Deploying a PHP application with persistent volumes
-&nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/6). This practice continues the previous practice but using an external storage (volume) for the database.
+&nbsp;&nbsp;&nbsp;  Read the documentation [DEPLOYING A PHP APPLICATION WITH PERSISTENT VOLUMES ON OPENSHIFT V3](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/7/1). This practice continues the previous practice but using an external storage (volume) for the database.
+&nbsp;&nbsp;&nbsp; A **summary** is:
+1. Fork the repository with the CMS into your Github account. Remember: "https://github.com/ilosuna/phpsqlitecms.git".
+2. Make a copy from the directory  *cms/data* and called it *cms/datos*.
+3. Build the image in OpenShift (remember the rest -pods, services, route, deployment will be created automatically).
+4. Create a volume in OpenShift (called *disco1*). Thes volume will the disk where the data will be saved from the CMS to get the persistent volume.
+5. Associate the volume *disco1* to the pod. This action will mount the *disco1*  on the path */opt/apt-root/src/cms/data*. Go to *Deployment* to do it.
+6. Initially, the *disco1* doesn't have any data; we need to copy the data from  */cms/datos* to this directory. Connect to the pod by its terminal and lauch the command 'cp /opt/apt-root/src/cms/datos /opt/apt-root/src/cms/data'.
+7. Now, we can modify our application and launch several pods; they all will have the same content after any modification. 
+ 
 
 <br/><br/>
 ---
