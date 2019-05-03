@@ -134,7 +134,7 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 
 
 #####  Practice 4.- Deploying a PHP application with persistent volumes
-&nbsp;&nbsp;&nbsp;  Read the documentation [DEPLOYING A PHP APPLICATION WITH PERSISTENT VOLUMES ON OPENSHIFT V3](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/7/1). This practice continues the previous practice but using an external storage (volume) for the database.
+&nbsp;&nbsp;&nbsp;  Read the documentation [Deploying a PHP application with persistent volume on Openshift V3](https://iesgn.github.io/cloudandrelated/deploying_apps_openshift.html#/7/1). This practice continues the previous practice but using an external storage (volume) for the database.
 &nbsp;&nbsp;&nbsp; A **summary** is:
 1. Fork the repository with the CMS into your Github account. Remember: "https://github.com/ilosuna/phpsqlitecms.git".
 2. Make a copy from the directory  *cms/data* and called it *cms/datos*.
