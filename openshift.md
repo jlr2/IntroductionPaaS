@@ -140,7 +140,7 @@ You get details about it in [Soluciones disponibles de Openshift](https://iesgn.
 2. Make a copy from the directory  *cms/data* and called it *cms/datos*.
 3. Build the image in OpenShift (remember the rest -pods, services, route, deployment will be created automatically).
 4. Create a volume in OpenShift (called *disco1*). Thes volume will the disk where the data will be saved from the CMS to get the persistent volume.
-5. Associate the volume *disco1* to the pod. This action will mount the *disco1*  on the path */opt/apt-root/src/cms/data*. Go to *Deployment* to do it.
+5. Associate the volume *disco1* to the pod. This action will mount the *disco1*  on the path */opt/app-root/src/cms/data*. Go to *Deployment* to do it.
 6. Initially, the *disco1* doesn't have any data; we need to copy the data from  */cms/datos* to this directory. Connect to the pod by its terminal and lauch the command 'cp /opt/apt-root/src/cms/datos /opt/apt-root/src/cms/data'.
 7. Now, we can modify our application and launch several pods; they all will have the same content after any modification. 
  
